@@ -1,0 +1,19 @@
+Source: kaisen-skeleton
+Priority: standard
+Section: kaisen-packages
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
+Uploaders: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
+Standards-Version: 4.4.0
+Build-Depends: debhelper
+Homepage: https://kaisen-linux.org/kaisen
+
+Package: kaisen-skeleton
+Architecture: all
+Priority: standard
+Depends: terminator,
+	 vim,
+	 fonts-powerline,
+	 zsh,
+	 git,
+	 conky-all,
+Description: Kaisen Linux defaults profiles for desktop environments

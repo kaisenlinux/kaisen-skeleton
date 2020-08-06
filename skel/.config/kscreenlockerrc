@@ -1,0 +1,11 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+LockGrace=0
+
+[Greeter]
+Theme=org.kde.breezedark.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/desktop-base/kaisen-picto-white-theme/wallpaper/contents/images/1920x1080.png

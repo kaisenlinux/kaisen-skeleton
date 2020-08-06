@@ -1,0 +1,27 @@
+[global_config]
+  window_state = maximise
+  extra_styling = False
+  inactive_color_offset = 0.8045977011494253
+[keybindings]
+[profiles]
+  [[default]]
+    allow_bold = False
+    icon_bell = False
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#34e2e2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    rewrap_on_resize = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]

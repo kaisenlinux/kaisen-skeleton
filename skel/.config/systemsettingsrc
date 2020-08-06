@@ -1,0 +1,18 @@
+[FileDialogSize]
+Height 619=560
+Width 1060=884
+
+[KFileDialog Settings]
+Recent Files[$e]=kaisen.png,file:///usr/share/icons/Kaisen/kaisen.png
+Recent URLs[$e]=file:///usr/share/icons/Kaisen/
+detailViewIconSize=0
+
+[MainWindow]
+Height 600=513
+Height 619=530
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABCQAAAIwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1060=954
+Width 800=720
+Window-Maximized 619x1060=true

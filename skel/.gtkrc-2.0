@@ -1,0 +1,12 @@
+gtk-primary-button-warps-slider=0
+
+
+gtk-cursor-theme-name="breeze_cursors"
+gtk-font-name="Noto Sans Regular 10"
+gtk-theme-name="Kaisen-Official"
+gtk-icon-theme-name="Kaisen"
+gtk-fallback-icon-theme="Kaisen"
+gtk-toolbar-style=GTK_TOOLBAR_ICONS
+gtk-menu-images=1
+gtk-button-images=1
+
