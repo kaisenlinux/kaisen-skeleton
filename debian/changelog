@@ -1,3 +1,14 @@
+kaisen-skeleton (1.1) kaisen-testing; urgency=medium
+
+  * Change conky syntax for new conky release
+  * Add conkycolors for add logos at conky
+  * The version number is given dynamically by lsb_release -rs in conky theme
+  * Update standards-version at 4.5.0
+  * Add conkyupdate script to convert old conky theme to conky 1.11 version
+  * Add Firefox profile
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 18 Aug 2020 01:39:26 +0200
+
 kaisen-skeleton (1.0) kaisen-testing; urgency=medium
 
   * Package for unification of the default profiles of all interfaces

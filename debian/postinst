@@ -15,4 +15,5 @@ cp -rf /usr/share/kaisen-skeleton/Desktop /etc/skel
 cp -f /usr/share/kaisen-skeleton/.conkyrc /etc/skel
 rm -rf /usr/share/kaisen-skeleton
 
-ln -s /etc/skel/.face /etc/skel/.face.icon || true
+#Sensors-detect to HDD section in conky
+sensors-detect --auto 1> /dev/null || true

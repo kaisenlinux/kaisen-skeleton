@@ -2,6 +2,6 @@
 
 set -e
 
-rm -rf /root/.oh-my-zsh
 rm -rf /etc/skel
 mkdir -p /etc/skel
+rm -rf /root/.oh-my-zsh
