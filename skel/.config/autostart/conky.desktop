@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=conky
+Exec=/bin/conky
+Hidden=false
+Type=Application
+X-LXDE-Autostart-enabled=true
