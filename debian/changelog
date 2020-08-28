@@ -1,3 +1,10 @@
+kaisen-skeleton (1.3+kaisen4) kaisen-packages; urgency=medium
+
+  * Revert on old conky
+  * Remove .face-icon (not used)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 28 Aug 2020 18:58:23 +0200
+
 kaisen-skeleton (1.3+kaisen3) kaisen-packages; urgency=medium
 
   * Add IP informations on conky theme
