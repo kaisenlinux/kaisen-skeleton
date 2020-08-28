@@ -1,3 +1,10 @@
+kaisen-skeleton (1.3+kaisen3) kaisen-packages; urgency=medium
+
+  * Add IP informations on conky theme
+  * Fix no icon on KDE live (add symlink .face-icon)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 28 Aug 2020 13:43:18 +0200
+
 kaisen-skeleton (1.3+kaisen2) kaisen-devel; urgency=medium
 
   * Add conky.desktop on /etc/xdg/autostart (conffile)
