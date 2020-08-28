@@ -72,7 +72,7 @@ ${goto 32}Users connected: ${alignr}${color2}${user_names}${color}
 # |--CPU
 ${voffset 4}${color0}${font ConkyColors:size=16}e${color}${font}${voffset -4}${goto 32}CPU: ${font Liberation Sans:style=Bold:size=8}${color1}${cpu cpu0}%${color}${font} ${alignr}${color2}${cpubar cpu0 8,60 E07A1F FF0000}${color}
 # |--MEM
-${voffset 2}${color0}${font ConkyColors:size=15}g${font}${color}${goto 32}${voffset -7}RAM: ${font Liberation Sans:style=Bold:size=8}${color1}$memperc%${color}${font}
+${voffset 2}${color0}${font ConkyColors:size=15}g${font}${color}${goto 32}${voffset -7}RAM: ${font Liberation Sans:style=Bold:size=8}${color1}$memperc%${color}${font}${alignr}${color2}${membar}${color}
 ${offset 1}${color0}${membar 4,17}${color}${goto 32}F: ${font Liberation Sans:style=Bold:size=8}${color2}${memeasyfree}${color}${font} U: ${font Liberation Sans:style=Bold:size=8}${color2}${mem}${color}${font}
 # |--BATTERY
 ${if_existing /sys/class/power_supply/BAT0}${color0}${font ConkyColors:size=15}5${font}${color}${goto 32}${voffset -6}Battery: ${font Liberation Sans:style=Bold:size=8}${color1}${battery_percent BAT0}%${color}${font} ${alignr}${color2}${battery_bar BAT0 8,60}${color}${else}${color0}${font ConkyColors:size=15}6${font}${color}${goto 32}${voffset -6}Battery: ${font Liberation Sans:style=Bold:size=8}${color2}Unknown Status${color}${font}${endif}

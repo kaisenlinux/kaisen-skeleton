@@ -1,3 +1,9 @@
+kaisen-skeleton (1.3+kaisen6) kaisen-packages; urgency=medium
+
+  * Add membar on conky
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 28 Aug 2020 21:43:23 +0200
+
 kaisen-skeleton (1.3+kaisen5) kaisen-packages; urgency=medium
 
   * Add more informations on conky (and fix IP informations)
