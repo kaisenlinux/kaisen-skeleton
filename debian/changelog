@@ -1,3 +1,9 @@
+kaisen-skeleton (1.3+kaisen8) kaisen-packages; urgency=medium
+
+  * Change nodename by {exec hostname} for Hostname (conky)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 28 Aug 2020 23:13:15 +0200
+
 kaisen-skeleton (1.3+kaisen7) kaisen-packages; urgency=medium
 
   * Change execi by exec in OS version (conky)
