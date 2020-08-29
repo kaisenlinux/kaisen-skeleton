@@ -67,7 +67,7 @@ ${goto 32}Hostname: ${alignr}${color2}${exec hostname}${color}
 ${goto 32}OS version: ${alignr}${color2}Kaisen Rolling ${exec lsb_release -rs}${color}
 ${goto 32}Architecture: ${alignr}${color2}${machine}${color}
 ${goto 32}Conky version: ${alignr}${color2}$conky_version${color}
-${goto 32}Process number: ${alignr}${color2}${processes}${color}
+${goto 32}Running process: ${alignr}${color2}${processes}${color}
 ${goto 32}Users connected: ${alignr}${color2}${user_names}${color}
 # |--CPU
 ${voffset 4}${color0}${font ConkyColors:size=16}e${color}${font}${voffset -4}${goto 32}CPU: ${font Liberation Sans:style=Bold:size=8}${color1}${cpu cpu0}%${color}${font} ${alignr}${color2}${cpubar cpu0 8,60 E07A1F FF0000}${color}
@@ -78,22 +78,22 @@ ${offset 1}${color0}${membar 4,17}${color}${goto 32}F: ${font Liberation Sans:st
 ${if_existing /sys/class/power_supply/BAT0}${color0}${font ConkyColors:size=15}5${font}${color}${goto 32}${voffset -6}Battery: ${font Liberation Sans:style=Bold:size=8}${color1}${battery_percent BAT0}%${color}${font} ${alignr}${color2}${battery_bar BAT0 8,60}${color}${else}${color0}${font ConkyColors:size=15}6${font}${color}${goto 32}${voffset -6}Battery: ${font Liberation Sans:style=Bold:size=8}${color2}Unknown Status${color}${font}${endif}
 # |--PROC
 ${voffset 4}${color0}${font ConkyColors:size=16}E${font}${color}${goto 32}${voffset -10}Top process: ${color2}${alignr 10}CPU${alignr}RAM${color}
-${voffset -1}${goto 42}${color2}${top name 1}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 1}${alignr }${top mem 1}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 2}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 2}${alignr }${top mem 2}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 3}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 3}${alignr }${top mem 3}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 4}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 4}${alignr }${top mem 4}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 5}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 5}${alignr }${top mem 5}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 6}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 6}${alignr }${top mem 6}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 7}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 7}${alignr }${top mem 7}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 8}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 8}${alignr }${top mem 8}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 9}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 9}${alignr }${top mem 9}${color}${font}
-${voffset -1}${goto 42}${color2}${top name 10}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 10}${alignr }${top mem 10}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 1}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 1}${alignr}${top mem 1}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 2}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 2}${alignr}${top mem 2}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 3}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 3}${alignr}${top mem 3}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 4}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 4}${alignr}${top mem 4}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 5}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 5}${alignr}${top mem 5}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 6}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 6}${alignr}${top mem 6}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 7}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 7}${alignr}${top mem 7}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 8}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 8}${alignr}${top mem 8}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 9}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 9}${alignr}${top mem 9}${color}${font}
+${voffset -1}${goto 42}${color2}${top name 10}${color}${font Liberation Sans:style=Bold:size=8}${color1} ${goto 126}${top cpu 10}${alignr}${top mem 10}${color}${font}
 # |--NAME SERVER IP
 ${voffset 2}${color0}${font ConkyColors:size=15}c${font}${color}${goto 32}${voffset -6}DNS IP: ${alignr}${nameserver}
 # |--ETHERNET
-${voffset 2}${color0}${font ConkyColors:size=15}b${font}${color}${goto 32}${voffset -6}Ethernet IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v wl | grep -v inet6 | grep -v ppp | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
+${voffset 2}${color0}${font ConkyColors:size=15}b${font}${color}${goto 32}${voffset -6}Ethernet IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v wl | grep -v inet6 | grep -v ppp | grep -v sl | grep -v ww | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
 # |--WIRELESS
-${voffset 2}${color0}${font ConkyColors:size=15}k${font}${color}${goto 32}${voffset -6}Wireless IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v en | grep -v eth | grep -v inet6 | grep -v ppp | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
+${voffset 2}${color0}${font ConkyColors:size=15}k${font}${color}${goto 32}${voffset -6}Wireless IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v en | grep -v eth | grep -v inet6 | grep -v ppp | grep -v sl | grep -v ww | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
 # |--PUBLIC IP
 ${voffset 2}${color0}${font ConkyColors:size=15}B${font}${color}${goto 32}${voffset -6}Public IP: ${alignr}${exec curl ipinfo.io/ip}
 # |--HDD

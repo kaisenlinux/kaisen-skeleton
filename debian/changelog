@@ -1,3 +1,9 @@
+kaisen-skeleton (1.3+kaisen10) kaisen-packages; urgency=medium
+
+  * Add grep -v sl and grep -v ww on conky theme
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 29 Aug 2020 18:30:56 +0200
+
 kaisen-skeleton (1.3+kaisen9) kaisen-packages; urgency=medium
 
   * Add grep -v ppp on conky theme and rename grep -v enp by grep -v en
