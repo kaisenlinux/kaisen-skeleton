@@ -91,9 +91,9 @@ ${voffset -1}${goto 42}${color2}${top name 10}${color}${font Liberation Sans:sty
 # |--NAME SERVER IP
 ${voffset 2}${color0}${font ConkyColors:size=15}c${font}${color}${goto 32}${voffset -6}DNS IP: ${alignr}${nameserver}
 # |--ETHERNET
-${voffset 2}${color0}${font ConkyColors:size=15}b${font}${color}${goto 32}${voffset -6}Ethernet IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v wl | grep -v inet6 | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
+${voffset 2}${color0}${font ConkyColors:size=15}b${font}${color}${goto 32}${voffset -6}Ethernet IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v wl | grep -v inet6 | grep -v ppp | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
 # |--WIRELESS
-${voffset 2}${color0}${font ConkyColors:size=15}k${font}${color}${goto 32}${voffset -6}Wireless IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v enp | grep -v eth | grep -v ens | grep -v inet6 | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
+${voffset 2}${color0}${font ConkyColors:size=15}k${font}${color}${goto 32}${voffset -6}Wireless IP: ${alignr}${exec ip a | grep inet | grep -vw lo | grep -v vmnet | grep -v en | grep -v eth | grep -v inet6 | grep -v ppp | cut -d \/ -f1 | sed 's/[^0-9\.]*//g'}
 # |--PUBLIC IP
 ${voffset 2}${color0}${font ConkyColors:size=15}B${font}${color}${goto 32}${voffset -6}Public IP: ${alignr}${exec curl ipinfo.io/ip}
 # |--HDD
