@@ -1,5 +1,10 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:///usr/share/icons/Kaisen/kaisen.png,file:///usr/share/pixmaps/kaisen/kaisen.png
+Recent URLs[$e]=file:///usr/share/pixmaps/kaisen/
+detailViewIconSize=0
+
 [ScreenConnectors]
-0=Virtual1
+0=LVDS-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
