@@ -4,7 +4,7 @@ Section: kaisen-packages
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
 Uploaders: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
 Standards-Version: 4.5.0
-Build-Depends: debhelper, python-statgrab, python-keyring, ttf-ubuntu-font-family, hddtemp, curl, lm-sensors
+Build-Depends: debhelper
 Homepage: https://kaisen-linux.org/kaisen
 
 Package: kaisen-skeleton
@@ -15,11 +15,6 @@ Depends: terminator,
 	 fonts-powerline,
 	 zsh,
 	 git,
-	 python-statgrab,
-	 python-keyring,
-	 ttf-ubuntu-font-family,
-	 hddtemp,
-	 curl,
-	 lm-sensors,
+	 conkycolors,
 Replaces: kaisen-firefox, kaisen-kde-default-profile, kaisen-lxde-default-profile, kaisen-mate-default-profile, kaisen-xfce-default-profile,
 Description: Kaisen Linux defaults profiles for desktop environments

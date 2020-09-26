@@ -1,3 +1,0 @@
-#! /bin/sh
-DIR=$(conky-colors --finddir=scripts/conkyClock_m.py)
-$PYTHONPATH /usr/bin/python3 $DIR/scripts/conkyClock_m.py "$@"
