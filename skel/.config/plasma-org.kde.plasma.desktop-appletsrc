@@ -20,14 +20,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -51,7 +51,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][2][Applets][4][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][2][Applets][4][Configuration][ConfigDialog]
 DialogHeight=535
@@ -62,7 +62,7 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][5][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][2][Applets][5][Configuration][General]
 launchers=applications:kaisenterminal.desktop,applications:firefox.desktop,applications:libreoffice-calc.desktop,applications:libreoffice-writer.desktop,applications:org.kde.spectacle.desktop,applications:kaisenkeepassxc.desktop,applications:kaisencodium.desktop
@@ -72,7 +72,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=50
+PreloadWeight=42
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -80,21 +80,28 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=10
+PreloadWeight=2
+
+[Containments][2][Applets][8][Configuration][Appearance]
+showSeconds=true
+
+[Containments][2][Applets][8][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][9]
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
 [Containments][2][Applets][9][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][2][ConfigDialog]
 DialogHeight=84
 DialogWidth=1280
 
 [Containments][2][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][2][General]
 AppletOrder=3;4;5;6;8;9;19
@@ -114,7 +121,7 @@ DialogHeight=535
 DialogWidth=720
 
 [Containments][21][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][21][General]
 ToolBoxButtonState=topright
@@ -139,66 +146,66 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 
 [Containments][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][Applets][14]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][Applets][16]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=20
+PreloadWeight=12
 
 [Containments][7][Applets][20]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][7][Applets][20][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][General]
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller
@@ -208,5 +215,5 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde
 immutability=2
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,2,desktop:/kaisenterminal.desktop,desktop:/firefox.desktop
+itemsOnDisabledScreens=
 screenMapping=desktop:/kaisenterminal.desktop,0,desktop:/firefox.desktop,0
