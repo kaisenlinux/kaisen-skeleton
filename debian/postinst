@@ -2,6 +2,8 @@
 
 set -e
 
+if [[ "$1" = "configure" ]]; then
+
 git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh || true
 git clone https://github.com/ohmyzsh/ohmyzsh.git /root/.oh-my-zsh || true
 cp -f /usr/share/kaisen-skeleton/.zshrc /root
@@ -13,4 +15,10 @@ cp -rf /usr/share/kaisen-skeleton/.kde /etc/skel
 cp -f /usr/share/kaisen-skeleton/.gtkrc-2.0 /etc/skel
 cp -rf /usr/share/kaisen-skeleton/Desktop /etc/skel
 cp -f /usr/share/kaisen-skeleton/.conkyrc /etc/skel
+cd /etc/skel
+ln -s .face .face.icon 2> /dev/null || true
 rm -rf /usr/share/kaisen-skeleton
+
+fi
+
+#DEBHELPER#
