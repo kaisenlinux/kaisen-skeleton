@@ -101,7 +101,7 @@ ${voffset 2}${color0}${font ConkyColors:size=15}A${font}${color}${goto 32}${voff
 # |--PUBLIC IP
 ${voffset 2}${color0}${font ConkyColors:size=15}B${font}${color}${goto 32}${voffset -6}Public IP: ${alignr}${exec curl ipinfo.io/ip}
 # |--HDD
-${execpi 30 /usr/share/conkycolors/bin/conkyHD1}
+${execp /usr/share/conkycolors/bin/conkyHD1}
 # |--TIME AND DATE
 ${alignc}${time %A %d %B %Y}
 ${voffset -2}${alignc 38}${color2}${font Liberation Sans:style=Bold:size=20}${alignc}${time %H:%M:%S}${font}${color}
