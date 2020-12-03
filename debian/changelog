@@ -1,3 +1,9 @@
+kaisen-skeleton (1.4+kaisen12) kaisen-packages; urgency=medium
+
+  * Remove executable bit on all files in skel and firefox/extensions/*
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 02 Dec 2020 23:29:26 +0200
+
 kaisen-skeleton (1.4+kaisen11) kaisen-packages; urgency=medium
 
   * Change execpi to execp on HDD section in conky theme
