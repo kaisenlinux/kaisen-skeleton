@@ -15,5 +15,4 @@ Depends: terminator,
 	 fonts-powerline,
 	 zsh,
 	 git,
-Replaces: kaisen-firefox, kaisen-kde-default-profile, kaisen-lxde-default-profile, kaisen-mate-default-profile, kaisen-xfce-default-profile,
 Description: Kaisen Linux defaults profiles for desktop environments
