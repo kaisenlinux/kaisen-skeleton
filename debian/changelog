@@ -1,3 +1,9 @@
+kaisen-skeleton (1.5) kaisen-packages; urgency=medium
+
+  * Update postrm script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 06 Dec 2020 03:01:06 +0200
+
 kaisen-skeleton (1.4+kaisen13) kaisen-packages; urgency=medium
 
   * Delete replaces in control file

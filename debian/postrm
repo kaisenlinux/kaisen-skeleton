@@ -3,21 +3,10 @@
 set -e
 
 case "$1" in
-	purge)
+	purge|upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
 
 rm -rf /etc/skel
 mkdir -p /etc/skel
-
-;;
-esac
-
-case "$1" in
-	remove|upgrade|full-upgrade|downgrade)
-
-rm -rf /etc/skel/.oh-my-zsh
-rm -rf /root/.oh-my-zsh
-rm -f /etc/skel/.face.icon
-rm -f /root/.face.icon
 
 ;;
 esac
