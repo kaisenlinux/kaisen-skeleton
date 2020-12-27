@@ -1,3 +1,10 @@
+kaisen-skeleton (1.5+kaisen2) kaisen-packages; urgency=medium
+
+  * Update case on postrm
+  * Send stderr in /dev/null
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 27 Dec 2020 14:07:51 +0200
+
 kaisen-skeleton (1.5+kaisen1) kaisen-packages; urgency=medium
 
   * Add lxcbr regex on conky script

@@ -4,8 +4,8 @@ set -e
 
 if [[ "$1" = "configure" ]]; then
 
-git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh || true
-git clone https://github.com/ohmyzsh/ohmyzsh.git /root/.oh-my-zsh || true
+git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh 2> /dev/null || true
+git clone https://github.com/ohmyzsh/ohmyzsh.git /root/.oh-my-zsh 2> /dev/null || true
 cp -f /usr/share/kaisen-skeleton/.zshrc /root || true
 cp -rf /usr/share/kaisen-skeleton/.config /etc/skel || true
 cp -f /usr/share/kaisen-skeleton/.face /etc/skel || true

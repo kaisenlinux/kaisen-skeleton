@@ -3,11 +3,11 @@
 set -e
 
 case "$1" in
-	purge|upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
+	remove|autoremove|purge|upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
 
 rm -rf /etc/skel || true
 mkdir -p /etc/skel || true
-rm -rf /root/.oh-my-zsh || true
+rm -rf /root/.oh-my-zsh 2> /dev/null || true
 
 ;;
 esac
