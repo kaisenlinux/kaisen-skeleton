@@ -3,13 +3,14 @@
 set -e
 
 case "$1" in
-	remove|autoremove|purge|upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
+	purge|upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
 
 rm -rf /etc/skel || true
 mkdir -p /etc/skel || true
-rm -rf /root/.oh-my-zsh 2> /dev/null || true
 
 ;;
 esac
+
+rm -rf /root/.oh-my-zsh 2> /dev/null || true
 
 #DEBHELPER#

@@ -1,3 +1,10 @@
+kaisen-skeleton (1.5+kaisen3) kaisen-packages; urgency=medium
+
+  * Update case on postrm (delete remove and autoremove)
+  * Remove /etc/skel/.oh-my-zsh deletion in case
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 30 Dec 2020 00:57:21 +0200
+
 kaisen-skeleton (1.5+kaisen2) kaisen-packages; urgency=medium
 
   * Update case on postrm
