@@ -1,3 +1,9 @@
+kaisen-skeleton (1.5+kaisen4) kaisen-packages; urgency=medium
+
+  * Add check root execution on sbin/kaisen-update-skel script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 03 Jan 2021 00:11:08 +0200
+
 kaisen-skeleton (1.5+kaisen3) kaisen-packages; urgency=medium
 
   * Update case on postrm (delete remove and autoremove)
