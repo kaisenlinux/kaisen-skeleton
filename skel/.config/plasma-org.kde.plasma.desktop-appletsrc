@@ -20,14 +20,46 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=10
+PreloadWeight=2
+
+[Containments][2][Applets][23]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][23][Configuration]
+localPath=/home/kaisen/.local/share/plasma_icons/kaisenterminal.desktop
+url=file:///usr/share/applications/kaisenterminal.desktop
+
+[Containments][2][Applets][24]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][24][Configuration]
+localPath=/home/kaisen/.local/share/plasma_icons/firefox.desktop
+url=file:///usr/share/applications/firefox.desktop
+
+[Containments][2][Applets][25]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][25][Configuration]
+localPath=/home/kaisen/.local/share/plasma_icons/org.kde.spectacle.desktop
+url=file:///usr/share/applications/org.kde.spectacle.desktop
+
+[Containments][2][Applets][26]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][26][Configuration]
+localPath=/home/kaisen/.local/share/plasma_icons/org.kde.dolphin.desktop
+url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=100
+PreloadWeight=97
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540
@@ -51,7 +83,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][2][Applets][4][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][4][Configuration][ConfigDialog]
 DialogHeight=535
@@ -62,17 +94,17 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][5][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:kaisenterminal.desktop,applications:firefox.desktop,applications:libreoffice-calc.desktop,applications:libreoffice-writer.desktop,applications:org.kde.spectacle.desktop,applications:kaisenkeepassxc.desktop,applications:kaisencodium.desktop
+launchers=
 
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -80,7 +112,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][8][Configuration][Appearance]
 showSeconds=true
@@ -94,17 +126,17 @@ immutability=1
 plugin=org.kde.plasma.showdesktop
 
 [Containments][2][Applets][9][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][ConfigDialog]
 DialogHeight=84
 DialogWidth=1280
 
 [Containments][2][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;8;9;19
+AppletOrder=3;4;23;24;25;26;5;6;8;9;19
 
 [Containments][21]
 ItemGeometriesHorizontal=
@@ -121,7 +153,7 @@ DialogHeight=535
 DialogWidth=720
 
 [Containments][21][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][21][General]
 ToolBoxButtonState=topright
@@ -146,56 +178,56 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][13][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][14]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][16]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=12
+PreloadWeight=4
 
 [Containments][7][Applets][20]
 immutability=1
@@ -204,15 +236,22 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][7][Applets][20][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][22]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][7][Applets][22][Configuration]
+PreloadWeight=42
+
 [Containments][7][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller
-knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.kupapplet
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.kupapplet
 
 [General]
-immutability=2
+immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=

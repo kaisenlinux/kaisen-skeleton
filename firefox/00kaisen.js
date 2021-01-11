@@ -26,7 +26,7 @@ lockPref("browser.shell.checkDefaultBrowser", false);
 pref("browser.startup.firstrunSkipsHomepage", true);
 pref("startup.homepage_welcome_url", "https://kaisen-linux.org");
 pref("browser.startup.homepage", "https://www.google.com");
-pref("browser.newtabpage.activity-stream.default.sites", "https://kaisen-linux.org,https://blog.kaisen-linux.org,https://docs.kaisen-linux.org");
+pref("browser.newtabpage.activity-stream.default.sites", "https://kaisen-linux.org,https://blog.kaisen-linux.org,https://docs.kaisen-linux.org,https://manpages.kaisen-linux.org");
 pref("browser.newtabpage.pinned", "[{\"url\":\"https://kaisen-linux.org\",\"label\"Kaisen Linux\",\"searchTopSite\":true}]");
 pref("browser.search.hiddenOneOffs", "Bing,Amazon.com,eBay,Twitter");
 pref("browser.urlbar.placeholderName", "Google");

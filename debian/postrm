@@ -11,6 +11,7 @@ mkdir -p /etc/skel || true
 ;;
 esac
 
+rm -rf /etc/skel/.oh-my-zsh 2> /dev/null || true
 rm -rf /root/.oh-my-zsh 2> /dev/null || true
 
 #DEBHELPER#

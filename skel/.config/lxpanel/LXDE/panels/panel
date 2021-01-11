@@ -58,25 +58,11 @@ Plugin {
       id=firefox.desktop
     }
     Button {
-      id=libreoffice-calc.desktop
-    }
-    Button {
-      id=libreoffice-writer.desktop
-    }
-    Button {
       id=org.gnome.Screenshot.desktop
     }
     Button {
-      id=kaisenkeepassxc.desktop
+      id=pcmanfm.desktop
     }
-    Button {
-      id=kaisencodium.desktop
-    }
-  }
-}
-Plugin {
-  type=pager
-  Config {
   }
 }
 Plugin {
@@ -100,6 +86,16 @@ Plugin {
     FlatButton=0
     MaxTaskWidth=150
     spacing=1
+  }
+}
+Plugin {
+  type=pager
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
   }
 }
 Plugin {
@@ -140,5 +136,18 @@ Plugin {
     BoldFont=0
     IconOnly=0
     CenterText=0
+  }
+}
+Plugin {
+  type=wincmd
+  Config {
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=lxde-logout.desktop
+    }
   }
 }

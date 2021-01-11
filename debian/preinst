@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+cp -rf /etc/skel_user /usr/share 2> /dev/null || true

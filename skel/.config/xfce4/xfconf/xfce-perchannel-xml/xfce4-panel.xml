@@ -14,11 +14,8 @@
         <value type="int" value="1"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
-        <value type="int" value="19"/>
-        <value type="int" value="20"/>
         <value type="int" value="21"/>
-        <value type="int" value="22"/>
-        <value type="int" value="23"/>
+        <value type="int" value="2"/>
         <value type="int" value="7"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -56,6 +53,12 @@
         <value type="string" value="applet networkmanager"/>
         <value type="string" value="blueman-tray"/>
       </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="applet networkmanager"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="blueman"/>
+      </property>
     </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-12" type="string" value="clock">
@@ -91,29 +94,9 @@
         <value type="string" value="15927624332.desktop"/>
       </property>
     </property>
-    <property name="plugin-19" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15927624613.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-20" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15927624794.desktop"/>
-      </property>
-    </property>
     <property name="plugin-21" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="15927624955.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-22" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15927625456.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-23" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15927625577.desktop"/>
       </property>
     </property>
     <property name="plugin-25" type="string" value="pulseaudio">
@@ -121,5 +104,10 @@
     </property>
     <property name="plugin-7" type="string" value="tasklist"/>
     <property name="plugin-32" type="string" value="power-manager-plugin"/>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16102968711.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>

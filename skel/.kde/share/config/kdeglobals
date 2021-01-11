@@ -109,7 +109,7 @@ Name[fr_FR]=Brise sombre
 Name=Breeze Dark
 TerminalApplication[$e]=terminator
 shadeSortColumn=true
-widgetStyle=breeze
+widgetStyle=Breeze
 
 [Icons]
 Theme=Kaisen

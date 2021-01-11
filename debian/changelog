@@ -1,3 +1,14 @@
+kaisen-skeleton (1.5+kaisen5) kaisen-packages; urgency=medium
+
+  * Add manpages domain in firefox profile
+  * Update KDE/LXDE/MATE/XFCE launchers of launch bar
+  * Conky theme remove. Conky theme os now installed by kaisen-interfaces
+  * Update LXDE profile (adding virtual desktops, disconnect icon, display desktop icon)
+  * File conky.desktop remove. Now installed by kaisen-interfaces
+  * Update postrm script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 11 Jan 2021 01:16:21 +0200
+
 kaisen-skeleton (1.5+kaisen4) kaisen-packages; urgency=medium
 
   * Add check root execution on sbin/kaisen-update-skel script

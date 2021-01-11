@@ -47,6 +47,9 @@ Fallback Encoding=ISO 8859-15
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Font=Hack,10,-1,7,50,0,0,0,0,0
 Schema=Normal
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -59,6 +62,7 @@ Auto Center Lines=0
 Auto Completion=true
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
+Bracket Match Preview=false
 Chars To Enclose Selection=
 Default Mark Type=1
 Dynamic Word Wrap=true
@@ -99,6 +103,8 @@ Word Completion Remove Tail=true
 [MainWindow]
 State=AAAA/wAAAAD9AAAAAAAABCQAAAHsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Virtual1 XPosition=0
+Virtual1 YPosition=29
 Window-Maximized 619x1060=true
 
 [filetree]
