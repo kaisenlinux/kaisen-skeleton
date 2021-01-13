@@ -1,3 +1,9 @@
+kaisen-skeleton (1.5+kaisen6) kaisen-packages; urgency=medium
+
+  * Delete default MATE wallpapers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 13 Jan 2021 23:28:36 +0200
+
 kaisen-skeleton (1.5+kaisen5) kaisen-packages; urgency=medium
 
   * Add manpages domain in firefox profile
