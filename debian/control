@@ -1,11 +1,10 @@
 Source: kaisen-skeleton
 Priority: standard
 Section: kaisen-packages
-Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
-Uploaders: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
-Standards-Version: 4.5.0
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Standards-Version: 4.5.1
 Build-Depends: debhelper
-Homepage: https://kaisen-linux.org/kaisen
+Homepage: https://kaisenlinux.org
 
 Package: kaisen-skeleton
 Architecture: all

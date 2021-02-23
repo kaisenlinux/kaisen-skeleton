@@ -1,3 +1,10 @@
+kaisen-skeleton (1.5+kaisen9) kaisen-packages; urgency=medium
+
+  * Update Firefox links
+  * Update control file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 23 Feb 2021 01:00:17 +0200
+
 kaisen-skeleton (1.5+kaisen8) kaisen-packages; urgency=medium
 
   * Create kaisen-update-skel-user command
