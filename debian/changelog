@@ -1,3 +1,9 @@
+kaisen-skeleton (1.5+kaisen10) kaisen-packages; urgency=medium
+
+  * Fix 404 link at Kaisen Linux documentation
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 16 Mar 2021 00:16:57 +0200
+
 kaisen-skeleton (1.5+kaisen9) kaisen-packages; urgency=medium
 
   * Update Firefox links
