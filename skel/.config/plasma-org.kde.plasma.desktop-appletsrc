@@ -27,7 +27,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][23][Configuration]
-localPath=/home/kaisen/.local/share/plasma_icons/kaisenterminal.desktop
+localPath=/home/test/.local/share/plasma_icons/kaisenterminal.desktop
 url=file:///usr/share/applications/kaisenterminal.desktop
 
 [Containments][2][Applets][24]
@@ -35,7 +35,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][24][Configuration]
-localPath=/home/kaisen/.local/share/plasma_icons/firefox.desktop
+localPath=/home/test/.local/share/plasma_icons/firefox.desktop
 url=file:///usr/share/applications/firefox.desktop
 
 [Containments][2][Applets][25]
@@ -43,7 +43,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][25][Configuration]
-localPath=/home/kaisen/.local/share/plasma_icons/org.kde.spectacle.desktop
+localPath=/home/test/.local/share/plasma_icons/org.kde.spectacle.desktop
 url=file:///usr/share/applications/org.kde.spectacle.desktop
 
 [Containments][2][Applets][26]
@@ -51,7 +51,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][26][Configuration]
-localPath=/home/kaisen/.local/share/plasma_icons/org.kde.dolphin.desktop
+localPath=/home/test/.local/share/plasma_icons/org.kde.dolphin.desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][2][Applets][3]
@@ -59,7 +59,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
 DialogHeight=540

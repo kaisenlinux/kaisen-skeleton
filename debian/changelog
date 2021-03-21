@@ -1,3 +1,17 @@
+kaisen-skeleton (1.5+kaisen11) kaisen-testing; urgency=medium
+
+  * Update KDE profile (open blank session)
+  * Purge KDE file (delete unused and indesirables configurations
+  * Remove preinst script (no need backup)
+  * Update postinst script to copying zshrc only on root if not exist
+    and remove reapplying backup created by preinst
+  * Adding copying default profile for root user on postinst script
+  * Symlink .face file is now created with users (to fix KDE not user picture)
+  * Update postrm script to delete only file installed on /etc/skel by postinst
+    script for not deleted conkyrc file installed by other package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 20 Mar 2021 21:56:53 +0200
+
 kaisen-skeleton (1.5+kaisen10) kaisen-packages; urgency=medium
 
   * Fix 404 link at Kaisen Linux documentation
