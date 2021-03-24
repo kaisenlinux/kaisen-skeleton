@@ -1,3 +1,9 @@
+kaisen-skeleton (1.5+kaisen13) kaisen-packages; urgency=medium
+
+  * Update screenlocker path on skel/.config/kscreenlockerrc
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 24 Mar 2021 06:06:24 +0200
+
 kaisen-skeleton (1.5+kaisen12) kaisen-packages; urgency=medium
 
   * Fix missing default user icon on KDE (adding -a option at cp to preserve symlink when .face.icon is copied)
