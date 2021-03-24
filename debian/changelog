@@ -1,3 +1,10 @@
+kaisen-skeleton (1.5+kaisen12) kaisen-packages; urgency=medium
+
+  * Fix missing default user icon on KDE (adding -a option at cp to preserve symlink when .face.icon is copied)
+  * The postrm script remove /etc/skel entirely
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 24 Mar 2021 02:00:51 +0200
+
 kaisen-skeleton (1.5+kaisen11) kaisen-testing; urgency=medium
 
   * Update KDE profile (open blank session)

@@ -4,7 +4,7 @@ set -e
 
 case "$1" in
 	purge|upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
-	rm -rf /etc/skel/{.face.icon,.config,.face,.zshrc,.local,.kde,.gtkrc-2.0,Desktop} 2> /dev/null || true
+	rm -rf /etc/skel/ || true
 ;;
 esac
 
