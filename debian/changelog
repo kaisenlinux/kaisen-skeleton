@@ -1,3 +1,9 @@
+kaisen-skeleton (1.5+kaisen14) kaisen-packages; urgency=medium
+
+  * Remove vim dependancy
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Mar 2021 23:59:33 +0200
+
 kaisen-skeleton (1.5+kaisen13) kaisen-packages; urgency=medium
 
   * Update screenlocker path on skel/.config/kscreenlockerrc
