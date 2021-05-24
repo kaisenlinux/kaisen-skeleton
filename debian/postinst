@@ -8,14 +8,14 @@ git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh || true
 
 #Check if all Kaisen Linux default profile has already copied on root user, if not exists, copying Kaisen Linux default profile
 if [[ ! -e /root/.config && ! -e /root/.face && ! -e /root/.face.icon && ! -e /root/.local/share/konsole && ! -e /root/.zshrc && ! -e /root/kde && ! -e /root/.gtkrc-2.0 && ! -e /root/.face.icon && ! -e /root/.oh-my-zsh ]]; then
-	cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.local,.zshrc,.kde,.gtkrc-2.0} /root || true
+	cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.0} /root || true
 	git clone https://github.com/ohmyzsh/ohmyzsh.git /root/.oh-my-zsh || true
 else
 	echo "Default profile has already been copying on /root. No copying."
 fi
 
 #Copying new default profile on /etc/skel for all non root users
-cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.zshrc,.local,.kde,.gtkrc-2.0,Desktop} /etc/skel || true
+cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0,Desktop} /etc/skel || true
 rm -rf /usr/share/kaisen-skeleton || true
 
 fi

@@ -1,3 +1,11 @@
+kaisen-skeleton (1.6+kaisen1) kaisen-packages; urgency=medium
+
+  * Add .bashrc template
+  * Fix .conkyrc delete when kaisen-skeleton is updating
+  * Pluma (default MATE text editor) default theme added
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 23 May 2021 23:29:55 +0200
+
 kaisen-skeleton (1.6) kaisen-packages; urgency=medium
 
   * Update to 1.6 (no sources changes)
