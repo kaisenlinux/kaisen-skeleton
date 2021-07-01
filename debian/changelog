@@ -1,3 +1,9 @@
+kaisen-skeleton (1.6+kaisen2) kaisen-packages; urgency=medium
+
+  * Define DuckDuckGo as default search engine
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 01 Jul 2021 23:13:23 +0200
+
 kaisen-skeleton (1.6+kaisen1) kaisen-packages; urgency=medium
 
   * Add .bashrc template

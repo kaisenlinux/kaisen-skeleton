@@ -1,4 +1,4 @@
-//Firefox settings for Kaisen Linux
+//Firefox default settings for Kaisen Linux
 
 lockPref("app.update.enabled", false);
 lockPref("app.update.auto", false);
@@ -25,14 +25,14 @@ lockPref("toolkit.telemetry.updatePing.enabled", false);
 lockPref("browser.shell.checkDefaultBrowser", false);
 pref("browser.startup.firstrunSkipsHomepage", true);
 pref("startup.homepage_welcome_url", "https://kaisenlinux.org");
-pref("browser.startup.homepage", "https://www.google.com");
+pref("browser.startup.homepage", "https://duckduckgo.com/");
 pref("browser.newtabpage.activity-stream.default.sites", "https://kaisenlinux.org,https://kaisenlinux.org/blog/,https://kaisenlinux.org/documentation/,https://kaisenlinux.org/manpages/,https://forum.kaisenlinux.org,https://iso.kaisenlinux.org,https://gitlab.com/kaisenlinux,https://github.com/kaisenlinux");
 pref("browser.newtabpage.pinned", "[{\"url\":\"https://kaisenlinux.org\",\"label\"Kaisen Linux\",\"searchTopSite\":true}]");
 pref("browser.search.hiddenOneOffs", "Bing,Amazon.com,eBay,Twitter");
-pref("browser.urlbar.placeholderName", "Google");
-pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.havePinned", "google");
-pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines", "google");
-pref("browser.search.defaultenginename", "Google");
+pref("browser.urlbar.placeholderName", "DuckDuckGo");
+pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.havePinned", "duckduckgo");
+pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines", "duckduckgo");
+pref("browser.search.defaultenginename", "DuckDuckGo");
 pref("privacy.trackingprotection.socialtracking.enabled", true);
 pref("privacy.trackingprotection.origin_telemetry.enabled", true);
 pref("privacy.trackingprotection.enabled", true);
