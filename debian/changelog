@@ -1,3 +1,9 @@
+kaisen-skeleton (1.6+kaisen3) kaisen-packages; urgency=medium
+
+  * Update MATE dconf for define redglass as default mouse pointer
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 03 Jul 2021 17:34:14 +0200
+
 kaisen-skeleton (1.6+kaisen2) kaisen-packages; urgency=medium
 
   * Define DuckDuckGo as default search engine
