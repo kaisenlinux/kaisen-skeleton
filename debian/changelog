@@ -1,3 +1,9 @@
+kaisen-skeleton (1.6+kaisen4) kaisen-packages; urgency=medium
+
+  * Add Distrowatch link in the favorites pages
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 12 Jul 2021 04:14:16 +0200
+
 kaisen-skeleton (1.6+kaisen3) kaisen-packages; urgency=medium
 
   * Update MATE dconf for define redglass as default mouse pointer
