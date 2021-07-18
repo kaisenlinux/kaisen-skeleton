@@ -1,3 +1,10 @@
+kaisen-skeleton (1.7) kaisen-packages; urgency=medium
+
+  * Update at 1.7
+  * No changes
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 18 Jul 2021 16:06:26 +0200
+
 kaisen-skeleton (1.6+kaisen4) kaisen-packages; urgency=medium
 
   * Add Distrowatch link in the favorites pages
