@@ -1,3 +1,11 @@
+kaisen-skeleton (1.7+kaisen2) kaisen-packages; urgency=medium
+
+  * Remove the dotfiles displays in thunar
+  * Define dark theme as default theme for KeePassXC
+  * Apply Oblivion theme as default theme for gedit
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 29 Jul 2021 08:16:21 +0200
+
 kaisen-skeleton (1.7+kaisen1) kaisen-packages; urgency=medium
 
   * Add mastodon link

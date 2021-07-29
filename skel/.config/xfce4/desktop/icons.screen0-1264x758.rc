@@ -1,12 +1,12 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/test3/Desktop/kaisenterminal.desktop]
-row=3
+[/home/test4/Desktop/firefox.desktop]
+row=4
 col=0
 
-[/home/test3/Desktop/firefox.desktop]
-row=4
+[/home/test4/Desktop/kaisenterminal.desktop]
+row=3
 col=0
 
 [Corbeille]
@@ -17,7 +17,7 @@ col=0
 row=1
 col=0
 
-[/home/test3]
+[/home/test4]
 row=2
 col=0
 
