@@ -97,7 +97,7 @@ plugin=org.kde.plasma.taskmanager
 PreloadWeight=0
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:org.kde.kate.desktop
+launchers=
 
 [Containments][2][Applets][6]
 immutability=1
@@ -227,7 +227,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][7][Applets][20]
 immutability=1

@@ -1,40 +1,39 @@
 updateInfoAdded=true
 
 [akregator.upd]
-ctime=1627525842
+ctime=1616121954
 done=akregator-15.08-kickoff
 mtime=1604165637
 
 [delete_cursor_old_default_size.upd]
-ctime=1627525970
+ctime=1616122105
 done=DeleteCursorOldDefaultSize
 mtime=1609850579
 
 [disable_kmix.upd]
-ctime=1627526046
+ctime=1616122188
 done=PlasmaVolume_DisableKMixAutostart
 mtime=1609850391
 
 [filepicker.upd]
-ctime=1627525758
+ctime=1616121899
 mtime=1609593460
 
 [fonts_akregator.upd]
-ctime=1627525958
+ctime=1616122092
 done=Plasma_Fonts_Akregator
 mtime=1609850289
 
 [fonts_global.upd]
-ctime=1627525958
+ctime=1616122092
 mtime=1609850289
 
 [fonts_global_toolbar.upd]
-ctime=1627525958
+ctime=1616122092
 mtime=1609850289
 
 [fonts_kate.upd]
-ctime=1627525958
-done=Plasma_Fonts_Kate
+ctime=1616122092
 mtime=1609850289
 
 [gtkbreeze5.5.upd]
@@ -43,133 +42,132 @@ done=GTKBreeze5.5
 mtime=1578410302
 
 [gtkconfig.upd]
-ctime=1627526115
+ctime=1616122239
 done=gtk_theme,dont_use_gtk_css_for_window_decorations
 mtime=1609847494
 
 [gwenview.upd]
-ctime=1627525849
-done=SideBar_StatusBar_Rename,ImageView_AlphaBackgroundMode_Update,DeleteThumbnailSetting_Rename
+ctime=1616121963
 mtime=1614208532
 
 [icons_remove_effects.upd]
-ctime=1627525970
+ctime=1616122105
 done=IconsRemoveEffects
 mtime=1609850579
 
 [kaddressbook.upd]
-ctime=1627525874
+ctime=1616121996
 done=kaddressbook-15.08-kickoff
 mtime=1604165665
 
 [kcalcrc.upd]
-ctime=1627525888
+ctime=1616122014
 mtime=1606947105
 
 [kde4breeze.upd]
-ctime=1627525934
+ctime=1616122066
 done=5.0KDE4Breeze_2
 mtime=1609847217
 
 [kmail.upd]
-ctime=1627526023
+ctime=1616122164
 done=kmail-15.08-kickoff
 mtime=1604165707
 
 [kmail2.upd]
-ctime=1627526023
+ctime=1616122164
 done=kmail2
 mtime=1604165707
 
 [knotes.upd]
-ctime=1627526027
+ctime=1616122168
 done=knotes-15.08-kickoff
 mtime=1604165735
 
 [korganizer.upd]
-ctime=1627526030
+ctime=1616122173
 done=korganizer-15.08-kickoff
 mtime=1604165779
 
 [krdb_libpathwipe.upd]
-ctime=1627525970
+ctime=1616122105
 done=LibraryPathWipeOut
 mtime=1609850579
 
 [krunnerglobalshortcuts.upd]
-ctime=1627525970
+ctime=1616122105
 done=5.17KRunnerGlobalShortcuts
 mtime=1609850579
 
 [krunnerplugins.upd]
-ctime=1627525970
+ctime=1616122105
 done=5.9KRunnerPlugins
 mtime=1609850579
 
 [kscreenlocker.upd]
-ctime=1627526116
+ctime=1616122240
 mtime=1609848333
 
 [ksmserver_update_loginMode_value.upd]
-ctime=1627525941
+ctime=1616122074
 done=ksmserver_update_loginMode_value_default_enum
 mtime=1609848783
 
 [kwin.upd]
-ctime=1627525961
+ctime=1616122094
 done=animation-speed
 mtime=1609848532
 
 [kwinrules.upd]
-ctime=1627525961
+ctime=1616122094
 done=replace-placement-string-to-enum
 mtime=1609848532
 
 [languagetool_kmail.upd]
-ctime=1627526127
+ctime=1616122254
 mtime=1603957608
 
 [messageviewer.upd]
-ctime=1627525812
+ctime=1616121920
 done=messageviewer_move_gravatar
 mtime=1603719398
 
 [okular.upd]
-ctime=1627526034
+ctime=1616122177
 done=annotation-toolbar,builtin-annotations
 mtime=1614553557
 
 [pimsettingexporter.upd]
-ctime=1627526166
+ctime=1616122297
 done=pimsettingexporter-15.08-kickoff
 mtime=1604165807
 
 [sieveeditor.upd]
-ctime=1627526167
+ctime=1616122298
 done=sieveeditor-15.08-kickoff
 mtime=1604165827
 
 [spectacle_newConfig.upd]
-ctime=1627526009
+ctime=1616122149
 done=spectacle-new-config
 mtime=1614417554
 
 [spectacle_shortcuts.upd]
-ctime=1627526009
+ctime=1616122149
 done=spectacle-migrate-shortcuts
 mtime=1614417554
 
 [style_widgetstyle_default_breeze.upd]
-ctime=1627525970
+ctime=1616122105
 done=StyleWidgetStyleDefaultBreeze
 mtime=1609850579
 
 [webenginepart.upd]
-ctime=1627525897
+ctime=1616122025
 done=MoveNonPasswordStorableSites
 mtime=1606945713
 
 [webengineurlinterceptoradblock.upd]
-ctime=1627526127
+ctime=1616122254
 done=webengineurlinterceptoradblock_move_settings
 mtime=1603957608

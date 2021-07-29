@@ -63,9 +63,6 @@ Plugin {
     Button {
       id=pcmanfm.desktop
     }
-    Button {
-      id=mousepad.desktop
-    }
   }
 }
 Plugin {

@@ -1,10 +1,3 @@
-kaisen-skeleton (1.7+kaisen1) kaisen-packages; urgency=medium
-
-  * Add mastodon link
-  * Add text editor icon in the taskbar for all interfaces
-
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 29 Jul 2021 05:44:41 +0200
-
 kaisen-skeleton (1.7) kaisen-packages; urgency=medium
 
   * Update at 1.7
