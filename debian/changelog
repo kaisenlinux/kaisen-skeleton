@@ -1,3 +1,9 @@
+kaisen-skeleton (1.8) kaisen-packages; urgency=medium
+
+  * Update package at 1.8
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 02 Aug 2021 00:23:18 +0200
+
 kaisen-skeleton (1.7+kaisen2) kaisen-packages; urgency=medium
 
   * Remove the dotfiles displays in thunar
