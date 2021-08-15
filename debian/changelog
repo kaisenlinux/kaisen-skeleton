@@ -1,3 +1,11 @@
+kaisen-skeleton (1.8+kaisen2) kaisen-packages; urgency=medium
+
+  * Add of kate and kwrite defualt profile (text editors of KDE)
+  * The icons of the taskbar are now pinned on taskbar and are not add as
+    graphical composite (resolve message "cannot open this launcher")
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 15 Aug 2021 18:53:24 +0200
+
 kaisen-skeleton (1.8+kaisen1) kaisen-packages; urgency=medium
 
   * Removal of the right margin on Pluma

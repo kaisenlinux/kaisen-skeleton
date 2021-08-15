@@ -22,38 +22,6 @@ plugin=org.kde.plasma.bluetooth
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=2
 
-[Containments][2][Applets][23]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][23][Configuration]
-localPath=/home/test/.local/share/plasma_icons/kaisenterminal.desktop
-url=file:///usr/share/applications/kaisenterminal.desktop
-
-[Containments][2][Applets][24]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][24][Configuration]
-localPath=/home/test/.local/share/plasma_icons/firefox.desktop
-url=file:///usr/share/applications/firefox.desktop
-
-[Containments][2][Applets][25]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][25][Configuration]
-localPath=/home/test/.local/share/plasma_icons/org.kde.spectacle.desktop
-url=file:///usr/share/applications/org.kde.spectacle.desktop
-
-[Containments][2][Applets][26]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][26][Configuration]
-localPath=/home/test/.local/share/plasma_icons/org.kde.dolphin.desktop
-url=file:///usr/share/applications/org.kde.dolphin.desktop
-
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -97,7 +65,7 @@ plugin=org.kde.plasma.taskmanager
 PreloadWeight=0
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:org.kde.kate.desktop
+launchers=applications:kaisenterminal.desktop,applications:firefox.desktop,applications:org.kde.spectacle.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -136,7 +104,7 @@ DialogWidth=1280
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;4;23;24;25;26;5;6;8;9;19
+AppletOrder=3;4;5;6;8;9;19
 
 [Containments][21]
 ItemGeometriesHorizontal=
@@ -156,8 +124,8 @@ DialogWidth=720
 PreloadWeight=18
 
 [Containments][21][General]
-ToolBoxButtonState=topright
-ToolBoxButtonX=758
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=234
 arrangement=1
 showToolbox=false
 
