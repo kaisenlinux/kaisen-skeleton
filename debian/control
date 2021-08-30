@@ -9,8 +9,5 @@ Homepage: https://kaisenlinux.org
 Package: kaisen-skeleton
 Architecture: all
 Priority: standard
-Depends: terminator,
-	 fonts-powerline,
-	 zsh,
-	 git,
+Depends: git
 Description: Kaisen Linux defaults profiles for desktop environments
