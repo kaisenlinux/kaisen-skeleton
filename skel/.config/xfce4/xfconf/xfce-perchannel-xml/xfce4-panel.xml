@@ -11,7 +11,7 @@
       <property name="icon-size" type="uint" value="24"/>
       <property name="size" type="uint" value="25"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="8"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
         <value type="int" value="21"/>
@@ -32,12 +32,6 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-button-title" type="bool" value="true"/>
-      <property name="show-menu-icons" type="bool" value="true"/>
-      <property name="show-generic-names" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="kaisen"/>
-    </property>
     <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -115,5 +109,6 @@
         <value type="string" value="16275289391.desktop"/>
       </property>
     </property>
+    <property name="plugin-8" type="string" value="whiskermenu"/>
   </property>
 </channel>
