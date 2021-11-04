@@ -1,3 +1,11 @@
+kaisen-skeleton (1.8+kaisen8) kaisen-packages; urgency=medium
+
+  * Remove gtk-application-prefer-dark-theme=true
+    in skel/.config/gtk-3.0/settings.ini to fix
+    bad window borders
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 05 Nov 2021 00:09:33 +0200
+
 kaisen-skeleton (1.8+kaisen7) kaisen-packages; urgency=medium
 
   * Update KDE profile (new menu launcher)
