@@ -1,3 +1,12 @@
+kaisen-skeleton (1.8+kaisen7) kaisen-packages; urgency=medium
+
+  * Update KDE profile (new menu launcher)
+  * Add GTK4 folder in skel (KDE settings)
+  * Update Standards-Version
+  * Add Vcs fields
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 04 Nov 2021 15:40:56 +0200
+
 kaisen-skeleton (1.8+kaisen6) kaisen-packages; urgency=medium
 
   * Update bashrc colors for PS1

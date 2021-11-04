@@ -112,7 +112,8 @@ BrowserApplication[$e]=firefox.desktop
 ColorScheme=BreezeDark
 Name[fr_FR]=Brise sombre
 Name=Breeze Dark
-TerminalApplication[$e]=terminator
+TerminalApplication=x-terminal-emulator
+TerminalService=kaisenterminal.desktop
 shadeSortColumn=true
 widgetStyle=Breeze
 

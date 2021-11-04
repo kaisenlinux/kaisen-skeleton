@@ -1,5 +1,5 @@
 [ActionPlugins][0]
-MidButton;NoModifier=org.kde.paste
+MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
@@ -22,29 +22,25 @@ plugin=org.kde.plasma.bluetooth
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=2
 
-[Containments][2][Applets][3]
+[Containments][2][Applets][24]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kicker
 
-[Containments][2][Applets][3][Configuration]
+[Containments][2][Applets][24][Configuration]
 PreloadWeight=100
 
-[Containments][2][Applets][3][Configuration][ConfigDialog]
-DialogHeight=540
+[Containments][2][Applets][24][Configuration][ConfigDialog]
+DialogHeight=558
 DialogWidth=720
 
-[Containments][2][Applets][3][Configuration][General]
+[Containments][2][Applets][24][Configuration][General]
 alphaSort=true
+customButtonImage=/usr/share/pixmaps/kaisen/kaisen.png
 favoritesPortedToKAstats=true
-icon=/usr/share/pixmaps/kaisen/kaisen.png
-menuItems=application:t,computer:t,leave:t,oftenUsed:f,bookmark:f,used:f
-showAppsByName=true
-
-[Containments][2][Applets][3][Configuration][Shortcuts]
-global=Alt+F1
-
-[Containments][2][Applets][3][Shortcuts]
-global=Alt+F1
+showIconsRootLevel=true
+showRecentApps=false
+showRecentDocs=false
+useCustomButtonImage=true
 
 [Containments][2][Applets][4]
 immutability=1
@@ -72,7 +68,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=34
+PreloadWeight=44
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -98,15 +94,17 @@ PreloadWeight=0
 
 [Containments][2][ConfigDialog]
 DialogHeight=84
-DialogWidth=1280
+DialogWidth=1703
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;8;9;19
+AppletOrder=24;4;5;6;8;9;19
 
 [Containments][21]
+ItemGeometries-1703x902=
+ItemGeometries-1703x905=
 ItemGeometriesHorizontal=
 activityId=f0c52099-b3c7-492e-b89b-e9ec37ca6599
 formfactor=0
@@ -125,7 +123,7 @@ PreloadWeight=18
 
 [Containments][21][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=234
+ToolBoxButtonX=326
 arrangement=1
 showToolbox=false
 
@@ -160,7 +158,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][7][Applets][13]
 immutability=1
@@ -211,12 +209,20 @@ plugin=org.kde.plasma.nightcolorcontrol
 [Containments][7][Applets][22][Configuration]
 PreloadWeight=42
 
+[Containments][7][Applets][23]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][7][Applets][25]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
 [Containments][7][Configuration]
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.kupapplet
-knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.kupapplet
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.kupapplet,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
+knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.kupapplet,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod
 
 [General]
 immutability=1
