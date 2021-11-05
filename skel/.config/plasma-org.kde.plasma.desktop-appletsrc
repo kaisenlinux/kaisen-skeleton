@@ -15,13 +15,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][19]
-immutability=1
-plugin=org.kde.plasma.bluetooth
-
-[Containments][2][Applets][19][Configuration]
-PreloadWeight=2
-
 [Containments][2][Applets][24]
 immutability=1
 plugin=org.kde.plasma.kicker
@@ -50,8 +43,11 @@ plugin=org.kde.plasma.pager
 PreloadWeight=0
 
 [Containments][2][Applets][4][Configuration][ConfigDialog]
-DialogHeight=535
+DialogHeight=558
 DialogWidth=720
+
+[Containments][2][Applets][4][Configuration][General]
+displayedText=Number
 
 [Containments][2][Applets][5]
 immutability=1
@@ -100,7 +96,7 @@ DialogWidth=1703
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=24;4;5;6;8;9;19
+AppletOrder=24;5;4;6;8;9
 
 [Containments][21]
 ItemGeometries-1703x902=
@@ -217,6 +213,13 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
+[Containments][7][Applets][26]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][7][Applets][26][Configuration]
+PreloadWeight=42
+
 [Containments][7][Configuration]
 PreloadWeight=0
 
@@ -229,4 +232,4 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/kaisenterminal.desktop,0,desktop:/firefox.desktop,0
+screenMapping=desktop:/firefox.desktop,0,desktop:/kaisenterminal.desktop,0

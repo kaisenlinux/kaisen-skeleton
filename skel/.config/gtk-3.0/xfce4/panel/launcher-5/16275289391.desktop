@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name[fr]=Éditeur de texte
+Name=Text Editor
+Comment[fr]=Éditer des fichiers texte
+Comment=Edit text files
+Exec=gedit %U
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=org.gnome.gedit
+Categories=GNOME;GTK;Utility;TextEditor;
+Actions=new-window;new-document;
+Keywords[fr]=texte brut;éditeur;écrire;gedit;
+Keywords=Text;Editor;Plaintext;Write;gedit;
+DBusActivatable=true
+X-XFCE-Source=file:///usr/share/applications/org.gnome.gedit.desktop
+
+[Desktop Action new-window]
+Name[fr]=Nouvelle fenêtre
+Name=New Window
+Exec=gedit --new-window
+
+[Desktop Action new-document]
+Name[fr]=Nouveau document
+Name=New Document
+Exec=gedit --new-document

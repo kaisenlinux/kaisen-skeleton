@@ -80,10 +80,10 @@
     <property name="wrap_workspaces" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
     <property name="workspace_names" type="array">
-      <value type="string" value="1"/>
-      <value type="string" value="2"/>
-      <value type="string" value="3"/>
-      <value type="string" value="4"/>
+      <value type="string" value="Espace de travail 1"/>
+      <value type="string" value="Espace de travail 2"/>
+      <value type="string" value="Espace de travail 3"/>
+      <value type="string" value="Espace de travail 4"/>
     </property>
     <property name="cycle_minimized" type="bool" value="false"/>
     <property name="zoom_pointer" type="bool" value="true"/>

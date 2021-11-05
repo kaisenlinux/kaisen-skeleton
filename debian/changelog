@@ -1,3 +1,12 @@
+kaisen-skeleton (1.8+kaisen9) kaisen-packages; urgency=medium
+
+  * Update all defaults settings
+  * Add virtual desktops numbers in KDE, MATE and XFCE
+  * Reorganise KDE taskbar
+  * Remove notification icon on the taskbar of XFCE 
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 05 Nov 2021 03:50:07 +0200
+
 kaisen-skeleton (1.8+kaisen8) kaisen-packages; urgency=medium
 
   * Remove gtk-application-prefer-dark-theme=true

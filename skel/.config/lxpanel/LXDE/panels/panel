@@ -7,7 +7,7 @@ Global {
   margin=0
   widthtype=percent
   width=100
-  height=24
+  height=30
   transparent=1
   tintcolor=#000000
   alpha=0
@@ -19,7 +19,7 @@ Global {
   fontcolor=#ffffff
   background=0
   backgroundfile=/usr/share/lxpanel/images/background.png
-  iconsize=24
+  iconsize=25
   usefontsize=1
   fontsize=10
 }

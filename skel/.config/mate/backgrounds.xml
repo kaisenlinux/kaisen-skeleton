@@ -28,15 +28,6 @@
     <scolor>rgb(98,127,90)</scolor>
     <artist>Jens Ansorg</artist>
   </wallpaper>
-  <wallpaper deleted="false">
-    <name>3840x2160.png</name>
-    <filename>/usr/share/backgrounds/line-red/3840x2160.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
   <wallpaper deleted="true">
     <name>Dune</name>
     <filename>/usr/share/backgrounds/mate/nature/Dune.jpg</filename>
@@ -46,14 +37,23 @@
     <scolor>rgb(98,127,90)</scolor>
     <artist>Marco Cogoni, Hylke Bons</artist>
   </wallpaper>
-  <wallpaper deleted="true">
-    <name>Vert traditionnel</name>
-    <filename>/usr/share/backgrounds/mate/desktop/GreenTraditional.jpg</filename>
+  <wallpaper deleted="false">
+    <name>3840x2160.png</name>
+    <filename>/usr/share/backgrounds/picto-red/3840x2160.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist>l0r4n0n</artist>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Bois</name>
+    <filename>/usr/share/backgrounds/mate/nature/Wood.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>Jean-Fran&#xE7;ois Fortin Tam</artist>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Verte prairie</name>
@@ -65,13 +65,13 @@
     <artist>Timothy Schellhase, Lapo Calamandrei</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Bois</name>
-    <filename>/usr/share/backgrounds/mate/nature/Wood.jpg</filename>
+    <name>Vert traditionnel</name>
+    <filename>/usr/share/backgrounds/mate/desktop/GreenTraditional.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist>Jean-Fran&#xE7;ois Fortin Tam</artist>
+    <artist>l0r4n0n</artist>
   </wallpaper>
   <wallpaper deleted="false">
     <name>3840x2160.png</name>
@@ -80,7 +80,7 @@
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist/>
+    <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
     <name>3840x2160.png</name>
@@ -89,7 +89,7 @@
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist/>
+    <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Fleur jaune</name>
@@ -107,16 +107,7 @@
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>3840x2160.png</name>
-    <filename>/usr/share/backgrounds/picto-red/3840x2160.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
+    <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
     <name>3840x2160.png</name>
@@ -125,7 +116,7 @@
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist/>
+    <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Voile</name>
@@ -172,6 +163,15 @@
     <scolor>rgb(98,127,90)</scolor>
     <artist>Goce Mitevski</artist>
   </wallpaper>
+  <wallpaper deleted="false">
+    <name>3840x2160.png</name>
+    <filename>/usr/share/backgrounds/dna-center/3840x2160.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
   <wallpaper deleted="true">
     <name>Cosmos</name>
     <filename>/usr/share/backgrounds/cosmos/background-1.xml</filename>
@@ -180,6 +180,42 @@
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
     <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>3840x2160.png</name>
+    <filename>/usr/share/backgrounds/line-red/3840x2160.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>3840x2160.png</name>
+    <filename>/usr/share/backgrounds/dna-left/3840x2160.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>3840x2160.png</name>
+    <filename>/usr/share/backgrounds/tobas/3840x2160.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Something slowly gets clear</name>
+    <filename>/usr/share/backgrounds/mate/abstract/Elephants.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(114,159,207)</pcolor>
+    <scolor>rgb(0,0,0)</scolor>
+    <artist>Wyng Stancikaite</artist>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Ubuntu MATE Chaleureux</name>
@@ -192,52 +228,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>3840x2160.png</name>
-    <filename>/usr/share/backgrounds/dna-left/3840x2160.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>3840x2160.png</name>
-    <filename>/usr/share/backgrounds/dna-center/3840x2160.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
-  <wallpaper deleted="true">
-    <name>Something slowly gets clear</name>
-    <filename>/usr/share/backgrounds/mate/abstract/Elephants.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(114,159,207)</pcolor>
-    <scolor>rgb(0,0,0)</scolor>
-    <artist>Wyng Stancikaite</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>3840x2160.png</name>
-    <filename>/usr/share/backgrounds/tobas/3840x2160.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>3840x2160.png</name>
     <filename>/usr/share/backgrounds/kaisen/3840x2160.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
-  <wallpaper deleted="true">
-    <name>Arc</name>
-    <filename>/usr/share/backgrounds/mate/abstract/Arc-Colors-Transparent-Wallpaper.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
@@ -252,6 +243,15 @@
     <pcolor>rgb(63,77,40)</pcolor>
     <scolor>rgb(106,148,38)</scolor>
     <artist>Adam Erdman</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Arc</name>
+    <filename>/usr/share/backgrounds/mate/abstract/Arc-Colors-Transparent-Wallpaper.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Bandes</name>
