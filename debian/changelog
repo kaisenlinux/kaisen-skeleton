@@ -1,3 +1,10 @@
+kaisen-skeleton (1.8+kaisen11) kaisen-packages; urgency=medium
+
+  * Remove LXDE profile
+  * Add new LXQT profile
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 06 Nov 2021 02:08:53 +0200
+
 kaisen-skeleton (1.8+kaisen10) kaisen-packages; urgency=medium
 
   * Remove skel/.config/gtk-3.0/bookmarks file
