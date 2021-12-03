@@ -1,3 +1,10 @@
+kaisen-skeleton (1.8+kaisen14) kaisen-packages; urgency=medium
+
+  * Remove of the automatic copy of the default profile for user with UID 1000
+  * Remove conky theme and launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 04 Dec 2021 00:37:14 +0100
+
 kaisen-skeleton (1.8+kaisen13) kaisen-packages; urgency=medium
 
   * Add conky theme and launcher
