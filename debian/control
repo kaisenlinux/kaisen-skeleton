@@ -12,5 +12,4 @@ Package: kaisen-skeleton
 Architecture: all
 Priority: standard
 Depends: git
-Replaces: kaisen-interfaces-common, kaisen-kde, kaisen-lxde, kaisen-lxqt, kaisen-mate, kaisen-xfce
 Description: Kaisen Linux defaults profiles for desktop environments
