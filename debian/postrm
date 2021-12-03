@@ -3,16 +3,9 @@
 set -e
 
 case "$1" in
-	upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade)
-	rm -rf /etc/skel/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0,Desktop} 2> /dev/null || true
+	upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade|remove|autoremove|purge)
+	rm -rf /etc/skel/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0,Desktop,.conkyrc,.oh-my-zsh} 2> /dev/null || true
 ;;
 esac
-
-case "$1" in
-	purge)
-	rm -rf /etc/skel/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0,Desktop,.conkyrc} 2> /dev/null || true
-;;
-esac
-rm -rf /etc/skel/.oh-my-zsh 2> /dev/null || true
 
 #DEBHELPER#

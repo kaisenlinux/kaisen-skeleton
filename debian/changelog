@@ -1,3 +1,13 @@
+kaisen-skeleton (1.8+kaisen13) kaisen-packages; urgency=medium
+
+  * Add conky theme and launcher
+  * Add install of default profile for user with
+    UID 1000 (if no GUI was installed with NETINST)
+  * Add automatic update of conky theme for all users when he is updated
+  * Reset and resetting MATE dconf (to fix misplaced taskbar icons)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 02 Dec 2021 23:56:24 +0200
+
 kaisen-skeleton (1.8+kaisen12) kaisen-packages; urgency=medium
 
   * Add battery management in LXQt

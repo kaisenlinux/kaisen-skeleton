@@ -6,17 +6,36 @@ if [[ "$1" = "configure" ]]; then
 
 git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh || true
 
+#Copying default profile on /etc/skel
+cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0,Desktop,.conkyrc} /etc/skel || true
+rm -rf /usr/share/kaisen-skeleton || true
+
+#Installation of default profile for user with UID 1000 (if GUI not installed with the NETINST) and define ZSH as default shell
+for user in $(grep 1000 /etc/passwd | cut -d : -f1 2> /dev/null || true)
+do
+        if [[ ! -e /home/$user/.face && ! -e /home/$user/.face.icon && ! -e /home/$user/.local/share/konsole && ! -e /home/$user/.zshrc && ! -e /home/$user/kde && ! -e /home/$user/.gtkrc-2.0 && ! -e /home/$user/.oh-my-zsh && ! -e /home/$user/.conkyrc ]]; then
+        cp -arf /etc/skel/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.0,Desktop,.conkyrc,.oh-my-zsh} /home/$user && chown -R $user: /home/$user || true
+	chsh -s /bin/zsh $user
+        fi
+done
+
 #Check if all Kaisen Linux default profile has already copied on root user, if not exists, copying Kaisen Linux default profile
-if [[ ! -e /root/.face && ! -e /root/.face.icon && ! -e /root/.local/share/konsole && ! -e /root/.zshrc && ! -e /root/kde && ! -e /root/.gtkrc-2.0 && ! -e /root/.oh-my-zsh ]]; then
-	cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.0} /root || true
-	git clone https://github.com/ohmyzsh/ohmyzsh.git /root/.oh-my-zsh || true
-else
-	echo "Default profile has already been copying on /root. No copying."
+if [[ ! -e /root/.face && ! -e /root/.face.icon && ! -e /root/.local/share/konsole && ! -e /root/.zshrc && ! -e /root/kde && ! -e /root/.gtkrc-2.0 && ! -e /root/.oh-my-zsh && ! -e /root/.conkyrc ]]; then
+	cp -arf /etc/skel/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.0,.conkyrc,.oh-my-zsh} /root || true
 fi
 
-#Copying new default profile on /etc/skel for all non root users
-cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0,Desktop} /etc/skel || true
-rm -rf /usr/share/kaisen-skeleton || true
+#Automatic update conkyrc for all non root users
+for users in $(awk -F: '/\/home/ {printf "%s:%s\n",$1,$3}' /etc/passwd | cut -d: -f1)
+do
+        if [ -e /home/$users/.conkyrc ]; then
+        cp -f /etc/skel/.conkyrc /home/$users/.conkyrc && chown $users: /home/$users/.conkyrc
+        fi
+done
+
+#Automatic update conkyrc for root user
+if [ -e /root/.conkyrc ]; then
+        cp -f /etc/skel/.conkyrc /root/.conkyrc
+fi
 
 fi
 
