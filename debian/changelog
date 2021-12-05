@@ -1,3 +1,10 @@
+kaisen-skeleton (1.8+kaisen15) kaisen-packages; urgency=medium
+
+  * Readd conky theme (again...)
+  * Add new packages installed by kaisen-skeleton
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 05 Dec 2021 15:10:16 +0100
+
 kaisen-skeleton (1.8+kaisen14) kaisen-packages; urgency=medium
 
   * Remove of the automatic copy of the default profile for user with UID 1000

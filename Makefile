@@ -13,3 +13,4 @@ install:
 	cp -rf skel/.kde $(DESTDIR)/usr/share/kaisen-skeleton
 	cp -rf skel/.local $(DESTDIR)/usr/share/kaisen-skeleton
 	cp -rf skel/Desktop $(DESTDIR)/usr/share/kaisen-skeleton
+	cp -f skel/.conkyrc $(DESTDIR)/usr/share/kaisen-skeleton

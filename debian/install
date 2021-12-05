@@ -3,4 +3,5 @@ firefox/00kaisen.js usr/share/firefox/browser/defaults/preferences/
 firefox/distribution.ini usr/share/firefox/distribution/
 firefox/extensions usr/share/firefox/distribution/
 firefox/policies.json usr/share/firefox/distribution/
-skel_user etc
+etc/skel_user etc
+etc/conky.desktop etc/xdg/autostart/
