@@ -12,8 +12,4 @@ Package: kaisen-skeleton
 Architecture: all
 Priority: standard
 Depends: git,
-	 fonts-powerline,
-Recommends: conky-all,
-	    conkycolors,
-	    terminator,
 Description: Kaisen Linux defaults profiles for desktop environments
