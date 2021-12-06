@@ -1,3 +1,9 @@
+kaisen-skeleton (2.0) kaisen-packages; urgency=medium
+
+  * Update in 2.0. No changes needed.
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 23:10:44 +0100
+
 kaisen-skeleton (1.8+kaisen18) kaisen-packages; urgency=medium
 
   * Add fonts-powerline as dependancy (when default profile is copied
