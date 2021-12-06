@@ -1,3 +1,11 @@
+kaisen-skeleton (1.8+kaisen17) kaisen-packages; urgency=medium
+
+  * Simplification of the installation of the default profile for
+    the root user and for all the others (by a condition of execution
+    only at the first installation of the package).
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 03:13:47 +0100
+
 kaisen-skeleton (1.8+kaisen16) kaisen-packages; urgency=medium
 
   * Remove conky, conkycolors, fonts-powerline and terminator packages
