@@ -11,5 +11,5 @@ Vcs-Git: https://gitlab.com/kaisenlinux/packages/kaisen-skeleton.git
 Package: kaisen-skeleton
 Architecture: all
 Priority: standard
-Depends: git,
+Depends: git, fonts-powerline,
 Description: Kaisen Linux defaults profiles for desktop environments

@@ -1,3 +1,10 @@
+kaisen-skeleton (1.8+kaisen18) kaisen-packages; urgency=medium
+
+  * Add fonts-powerline as dependancy (when default profile is copied
+    default omz theme needed fonts-powerline)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 18:15:27 +0100
+
 kaisen-skeleton (1.8+kaisen17) kaisen-packages; urgency=medium
 
   * Simplification of the installation of the default profile for
