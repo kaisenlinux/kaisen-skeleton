@@ -4,4 +4,3 @@ firefox/distribution.ini usr/share/firefox/distribution/
 firefox/extensions usr/share/firefox/distribution/
 firefox/policies.json usr/share/firefox/distribution/
 etc/skel_user etc
-etc/conky.desktop etc/xdg/autostart/

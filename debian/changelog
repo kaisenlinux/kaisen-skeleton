@@ -1,3 +1,9 @@
+kaisen-skeleton (2.0+kaisen1) kaisen-packages; urgency=medium
+
+  * Remove Conky theme
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 18 Feb 2022 14:39:49 +0100
+
 kaisen-skeleton (2.0) kaisen-packages; urgency=medium
 
   * Update in 2.0. No changes needed. Readd virtual desktop numbers.
