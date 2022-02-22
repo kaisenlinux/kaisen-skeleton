@@ -1,3 +1,11 @@
+kaisen-skeleton (2.0+kaisen2) kaisen-packages; urgency=medium
+
+  * Add new text color for Kaisen Terminal
+  * Add deletion option in contextual menu for MATE
+  * Remove only elements in /etc/skel added by kaisen-skeleton
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 22 Feb 2022 19:28:32 +0100
+
 kaisen-skeleton (2.0+kaisen1) kaisen-packages; urgency=medium
 
   * Remove Conky theme
