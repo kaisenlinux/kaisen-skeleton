@@ -3,8 +3,6 @@ Height 619=560
 Width 1060=884
 
 [KFileDialog Settings]
-Recent Files[$e]=kaisen.png,file:///usr/share/icons/Kaisen/kaisen.png
-Recent URLs[$e]=file:///usr/share/icons/Kaisen/
 detailViewIconSize=16
 
 [MainWindow]

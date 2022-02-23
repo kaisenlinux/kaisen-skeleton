@@ -28,7 +28,7 @@ DialogWidth=720
 
 [Containments][2][Applets][24][Configuration][General]
 alphaSort=true
-customButtonImage=/usr/share/pixmaps/kaisen/kaisen.png
+customButtonImage=/usr/share/pixmaps/kaisen-menu/kaisen.png
 favoritesPortedToKAstats=true
 showIconsRootLevel=true
 showRecentApps=false
@@ -232,4 +232,3 @@ immutability=1
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/firefox.desktop,0,desktop:/kaisenterminal.desktop,0
