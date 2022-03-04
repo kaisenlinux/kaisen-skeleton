@@ -28,7 +28,7 @@ DialogWidth=720
 
 [Containments][2][Applets][24][Configuration][General]
 alphaSort=true
-customButtonImage=/usr/share/pixmaps/kaisen-menu/kaisen.png
+customButtonImage=/usr/share/pixmaps/kaisen-logos/kaisen.svg
 favoritesPortedToKAstats=true
 showIconsRootLevel=true
 showRecentApps=false
