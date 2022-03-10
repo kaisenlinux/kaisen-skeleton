@@ -9,5 +9,5 @@ if [[ "$EUID" -ne "0" ]]; then
         exit 1
 fi
 
-awk -F: -v v="/home" '{if ($6~v) if ( -d $6 ) print "cp -rv /etc/skel_user/* "$6" && cp -rv /etc/skel_user/.[!.]* "$6" && chown "$1" "$6" -R" fi fi }' /etc/passwd | zsh
-cp -rv /etc/skel_user/* /root && cp -rv /etc/skel_user/.[!.]* /root
+awk -F: -v v="/home" '{if ($6~v) if ( -d $6 ) print "cp -rv /etc/skel_user/.[!.]* "$6" && chown "$1" "$6" -R" fi fi }' /etc/passwd | zsh
+cp -rv /etc/skel_user/.[!.]* /root
