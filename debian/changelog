@@ -1,3 +1,10 @@
+kaisen-skeleton (2.0+kaisen5) kaisen-packages; urgency=medium
+
+  * Update size of menu logos on XFCE
+  * Add new logos in MATE and add seconds on the clock
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 10 Mar 2022 04:32:47 +0100
+
 kaisen-skeleton (2.0+kaisen4) kaisen-packages; urgency=medium
 
   * SVG logo is now ised for KDE menu launcher
