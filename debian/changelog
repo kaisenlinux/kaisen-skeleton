@@ -1,3 +1,11 @@
+kaisen-skeleton (2.0+kaisen8) kaisen-packages; urgency=medium
+
+  * Applying Kaisen theme by default for Konsole
+  * Remove default config for BlueOnBlack (replaced by Kaisen)
+  * Adding default display show battery pourcentage
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 30 May 2022 02:21:57 +0100
+
 kaisen-skeleton (2.0+kaisen7) kaisen-packages; urgency=medium
 
   * Force the utilization of Monospace Regular 13 fonts for all terminal applications

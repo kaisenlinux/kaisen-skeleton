@@ -184,6 +184,9 @@ plugin=org.kde.plasma.battery
 [Containments][7][Applets][16][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][16][Configuration][General]
+showPercentage=true
+
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
