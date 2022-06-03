@@ -1,3 +1,11 @@
+kaisen-skeleton (2.0+kaisen9) kaisen-packages; urgency=medium
+
+  * Applying Kaisen-Official red color for the navigation in apps
+  * Use Cantarell as default font instead of Noto Sans
+  * Panel on XFCE is now on the screen top
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 03 Jun 2022 15:40:11 +0100
+
 kaisen-skeleton (2.0+kaisen8) kaisen-packages; urgency=medium
 
   * Applying Kaisen theme by default for Konsole

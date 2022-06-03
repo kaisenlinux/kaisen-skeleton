@@ -1,5 +1,4 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
@@ -20,7 +19,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][24][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][2][Applets][24][Configuration][ConfigDialog]
 DialogHeight=558
@@ -64,7 +63,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=44
+PreloadWeight=36
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -101,6 +100,7 @@ AppletOrder=24;5;4;6;8;9
 [Containments][21]
 ItemGeometries-1703x902=
 ItemGeometries-1703x905=
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=f0c52099-b3c7-492e-b89b-e9ec37ca6599
 formfactor=0
@@ -115,7 +115,7 @@ DialogHeight=535
 DialogWidth=720
 
 [Containments][21][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][21][General]
 ToolBoxButtonState=topcenter
@@ -154,7 +154,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][7][Applets][13]
 immutability=1
@@ -206,15 +206,21 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][7][Applets][22][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
 
+[Containments][7][Applets][23][Configuration]
+PreloadWeight=42
+
 [Containments][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
+
+[Containments][7][Applets][25][Configuration]
+PreloadWeight=42
 
 [Containments][7][Applets][26]
 immutability=1
