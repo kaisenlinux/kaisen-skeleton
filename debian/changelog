@@ -1,3 +1,9 @@
+kaisen-skeleton (2.0+kaisen10) kaisen-packages; urgency=medium
+
+  * Update dconf
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Jun 2022 09:21:49 +0100
+
 kaisen-skeleton (2.0+kaisen9) kaisen-packages; urgency=medium
 
   * Applying Kaisen-Official red color for the navigation in apps
