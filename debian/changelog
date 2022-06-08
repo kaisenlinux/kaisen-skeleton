@@ -1,3 +1,10 @@
+kaisen-skeleton (2.1) kaisen-packages; urgency=medium
+
+  * Update KDE profile (define red as default color for menus)
+  * Added new backgrounds for all interfaces
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 09 Jun 2022 01:12:24 +0100
+
 kaisen-skeleton (2.0+kaisen10) kaisen-packages; urgency=medium
 
   * Update dconf

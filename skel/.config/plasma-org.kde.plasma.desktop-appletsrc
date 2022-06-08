@@ -19,7 +19,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][24][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][2][Applets][24][Configuration][ConfigDialog]
 DialogHeight=558
@@ -55,6 +55,10 @@ plugin=org.kde.plasma.taskmanager
 [Containments][2][Applets][5][Configuration]
 PreloadWeight=0
 
+[Containments][2][Applets][5][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
 [Containments][2][Applets][5][Configuration][General]
 launchers=applications:kaisenterminal.desktop,applications:firefox.desktop,applications:org.kde.spectacle.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop
 
@@ -63,7 +67,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=36
+PreloadWeight=0
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -115,7 +119,7 @@ DialogHeight=535
 DialogWidth=720
 
 [Containments][21][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][21][General]
 ToolBoxButtonState=topcenter
@@ -124,7 +128,8 @@ arrangement=1
 showToolbox=false
 
 [Containments][21][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/desktop-base/kaisen-theme/wallpaper/contents/images/3840x2160.png
+Image=file:///usr/share/desktop-base/kaisen-theme/wallpaper/contents/images/1920x1080.png
+SlidePaths=/usr/share/wallpapers
 
 [Containments][7]
 activityId=
@@ -154,7 +159,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][7][Applets][13]
 immutability=1
@@ -206,21 +211,21 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][7][Applets][22][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 
 [Containments][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
 
 [Containments][7][Applets][23][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][7][Applets][25][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][7][Applets][26]
 immutability=1

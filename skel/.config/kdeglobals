@@ -141,7 +141,7 @@ BrowserApplication[$e]=firefox.desktop
 ColorSchemeHash=d0b3d2da363261958945ede41bfed4e1744dd286
 Name=Breeze Dark
 Name[fr_FR]=Brise sombre
-TerminalApplication=x-terminal-emulator
+TerminalApplication=terminator
 TerminalService=kaisenterminal.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -161,6 +161,7 @@ ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breezedark.desktop
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
+SingleClick=false
 contrast=4
 widgetStyle=Breeze
 
