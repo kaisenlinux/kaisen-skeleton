@@ -3,8 +3,6 @@ Height 619=560
 Width 1060=884
 
 [KFileDialog Settings]
-Recent Files[$e]=kaisen-sddm.png,file:///usr/share/backgrounds/kaisen-sddm.png
-Recent URLs[$e]=file:///usr/share/backgrounds/
 detailViewIconSize=16
 
 [MainWindow]
@@ -25,8 +23,3 @@ Virtual1 YPosition 1703x905=106
 Width 1060=954
 Width 800=720
 Window-Maximized 619x1060=true
-eDP-1 XPosition 1920x1080=515
-eDP-1 YPosition 1920x1080=179
-
-[systemsettings_sidebar_mode]
-HighlightNonDefaultSettings=false
