@@ -20,4 +20,8 @@ cp -arf /etc/skel/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.
 
 fi
 
+if [[ "$1" = "configure" ]]; then
+	dconf update
+fi
+
 #DEBHELPER#

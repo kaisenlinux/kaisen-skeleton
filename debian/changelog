@@ -1,9 +1,16 @@
+kaisen-skeleton (2.1+kaisen1) kaisen-packages; urgency=medium
+
+  * Add MATE default profile with conffiles
+  * Remove the MATE defualt profile installed in the skel
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 16 Jul 2022 03:47:41 +0100
+
 kaisen-skeleton (2.1) kaisen-packages; urgency=medium
 
   * Update KDE profile (define red as default color for menus)
   * Added new backgrounds for all interfaces
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 09 Jun 2022 01:12:24 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 10 Jun 2022 00:31:18 +0100
 
 kaisen-skeleton (2.0+kaisen10) kaisen-packages; urgency=medium
 
