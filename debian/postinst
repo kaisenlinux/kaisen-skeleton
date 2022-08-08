@@ -4,7 +4,7 @@ set -e
 
 if [[ "$1" = "configure" ]]; then
 	dconf update
-	git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh
+	git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh 2> /dev/null || true
 fi
 
 #Copying default profile on /etc/skel
