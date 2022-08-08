@@ -2,7 +2,10 @@
 
 set -e
 
-git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh
+if [[ "$1" = "configure" ]]; then
+	dconf update
+	git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh
+fi
 
 #Copying default profile on /etc/skel
 cp -arf /usr/share/kaisen-skeleton/.[^.]* /etc/skel
@@ -18,10 +21,6 @@ done
 
 cp -arf /etc/skel/.[^.]* /root
 
-fi
-
-if [[ "$1" = "configure" ]]; then
-	dconf update
 fi
 
 #DEBHELPER#

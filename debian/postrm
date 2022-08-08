@@ -2,6 +2,10 @@
 
 set -e
 
-rm -rf /etc/skel/.[^.]*
+case "$1" in
+	upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade|purge|remove|autoremove)
+	rm -rf /etc/skel/.[^.]*
+;;
+esac
 
 #DEBHELPER#

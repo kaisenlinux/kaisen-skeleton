@@ -1,3 +1,11 @@
+kaisen-skeleton (2.1+kaisen3) kaisen-packages; urgency=medium
+
+  * Downloading the ohmyzsh repository only then the package is at the stage of
+    configure
+  * Retry fixing the directory not empty message when the oymyzsh is cloned from github
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 08 Aug 2022 21:59:26 +0100
+
 kaisen-skeleton (2.1+kaisen2) kaisen-packages; urgency=medium
 
   * Add regex to copy all files for the skeleton
