@@ -2,10 +2,6 @@
 
 set -e
 
-case "$1" in
-	upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade|purge|remove|autoremove)
-	rm -rf /etc/skel/{.oh-my-zsh,.bashrc,.config,.face,.face.icon,.gtkrc-2.0,.kde,.local,.zshrc}
-;;
-esac
+rm -rf /etc/skel/.[^.]*
 
 #DEBHELPER#

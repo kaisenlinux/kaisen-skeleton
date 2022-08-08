@@ -5,18 +5,18 @@ set -e
 git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh
 
 #Copying default profile on /etc/skel
-cp -arf /usr/share/kaisen-skeleton/{.config,.face,.face.icon,.bashrc,.zshrc,.local,.kde,.gtkrc-2.0} /etc/skel
+cp -arf /usr/share/kaisen-skeleton/.[^.]* /etc/skel
 rm -rf /usr/share/kaisen-skeleton
 
 if [[ -z "$2" ]]; then
 
-#Installation of default profile for all users only when package is installed
+#Installation of the default profile for all users only when the package is installed
 for users in $(awk -F: '/\/home/ {printf "%s:%s\n",$1,$3}' /etc/passwd | cut -d: -f1)
 do
-        cp -arf /etc/skel/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.0,.oh-my-zsh} /home/$users && chown -R $users: /home/$users
+        cp -arf /etc/skel/.[^.]* /home/$users && chown -R $users: /home/$users
 done
 
-cp -arf /etc/skel/{.config,.face,.face.icon,.local,.bashrc,.zshrc,.kde,.gtkrc-2.0,.oh-my-zsh} /root
+cp -arf /etc/skel/.[^.]* /root
 
 fi
 

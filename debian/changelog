@@ -1,7 +1,14 @@
+kaisen-skeleton (2.1+kaisen2) kaisen-packages; urgency=medium
+
+  * Add regex to copy all files for the skeleton
+  * Fix the error "directory is not empty" when the ohmyzsh repository is cloned
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 08 Aug 2022 18:06:07 +0100
+
 kaisen-skeleton (2.1+kaisen1) kaisen-packages; urgency=medium
 
   * Add MATE default profile with conffiles
-  * Remove the MATE defualt profile installed in the skel
+  * Remove the MATE default profile installed in the skel
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 16 Jul 2022 03:47:41 +0100
 
