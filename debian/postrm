@@ -5,6 +5,7 @@ set -e
 case "$1" in
 	upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade|purge|remove|autoremove)
 	rm -rf /etc/skel/.[^.]*
+	rm -rf /usr/local/share/konsole
 ;;
 esac
 

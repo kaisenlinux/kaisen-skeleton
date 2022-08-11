@@ -1,0 +1,5 @@
+#Default applications for Kaisen
+WebBrowser=firefox
+MailReader=thunderbird
+TerminalEmulator=terminator
+FileManager=thunar

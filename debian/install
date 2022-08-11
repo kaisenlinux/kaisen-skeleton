@@ -1,8 +1,4 @@
-sbin/* usr/sbin
-firefox/00kaisen.js usr/share/firefox/browser/defaults/preferences/
-firefox/distribution.ini usr/share/firefox/distribution/
-firefox/extensions usr/share/firefox/distribution/
-firefox/policies.json usr/share/firefox/distribution/
-etc/skel_user etc
 mate/kaisen.d etc/dconf/db/
 mate/profile/user etc/dconf/profile/
+xdg/* etc/xdg/
+usr/* usr/

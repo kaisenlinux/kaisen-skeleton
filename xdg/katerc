@@ -1,0 +1,28 @@
+[General]
+Show Url Nav Bar=true
+
+[KTextEditor Document]
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+Camel Cursor=true
+
+[KTextEditor Renderer]
+Color Theme=Breeze Dark
+Line Height Multiplier=1
+
+[KTextEditor View]
+Auto Completion Preselect First Entry=true
+Multiple Cursor Modifier=134217728
+Show Documentation With Completion=true
+Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
+
+[UiSettings]
+ColorScheme=Kaisen
+
+[filetree]
+showCloseButton=false
+showToolbar=true

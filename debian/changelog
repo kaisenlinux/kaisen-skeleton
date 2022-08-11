@@ -1,3 +1,22 @@
+kaisen-skeleton (2.1+kaisen5) kaisen-packages; urgency=medium
+
+  * Install XFCE default profile with conffiles in the /etc/xdg folder
+  * Remove the XFCE default profile installed from the skel
+  * Install CMST default profile with conffiles in the /etc/xdg folder
+  * Remove the CMST default profile installed from the skel
+  * Install featherpad default profile with conffiles in the /etc/xdg folder
+  * Remove featherpad default profile installed from the skel
+  * Install qterminal.org default profile with conffiles in the /etc/xdg folder
+  * Remove qterminal.org default profile installed from the skel
+  * Remove the skel/.config/mate/eom empty folder
+  * Add preinst maintainer script to rename default /etc/xdg/* conffiles
+  * Remove the skel_user directory and the associated kaisen-update-skel-user script
+  * Migration of few files for the KDE profile in the /etc/xdg directory
+  * Addition of Kaisen look-and-feel KDE theme (customization of the official Dark
+    Breeze theme for KDE)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 11 Aug 2022 10:24:29 +0100
+
 kaisen-skeleton (2.1+kaisen4) kaisen-packages; urgency=medium
 
   * Add an if statement to exec the dconf command
@@ -21,8 +40,8 @@ kaisen-skeleton (2.1+kaisen2) kaisen-packages; urgency=medium
 
 kaisen-skeleton (2.1+kaisen1) kaisen-packages; urgency=medium
 
-  * Add MATE default profile with conffiles
-  * Remove the MATE default profile installed in the skel
+  * Install XFCE default profile with conffiles in the /etc/xdg folder
+  * Remove the MATE default profile installed from the skel
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 16 Jul 2022 03:47:41 +0100
 

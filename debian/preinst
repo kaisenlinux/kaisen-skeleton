@@ -1,0 +1,109 @@
+#!/bin/bash
+
+set -e
+
+if [[ -z "$2" ]]; then
+
+if [[ -e /etc/xdg/cmst/cmst.conf ]]; then
+	mv /etc/xdg/cmst/cmst.conf /etc/xdg/cmst/cmst.conf.old
+fi
+
+if [[ -e /etc/xdg/featherpad/fp.conf ]]; then
+	mv /etc/xdg/featherpad/fp.conf /etc/xdg/featherpad/fp.conf.old
+fi
+
+if [[ -e /etc/xdg/qterminal.org/qterminal.ini ]]; then
+	mv /etc/xdg/qterminal.org/qterminal.ini /etc/xdg/qterminal.org/qterminal.ini.old
+fi
+
+if [[ -e /etc/xdg/xfce4/helpers.rc ]]; then
+	mv /etc/xdg/xfce4/helpers.rc /etc/xdg/xfce4/helpers.rc.old
+fi
+
+if [[ -e /etc/xdg/xfce4/panel/default.xml ]]; then
+	mv /etc/xdg/xfce4/panel/default.xml /etc/xdg/xfce4/panel/default.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/terminal/terminalrc ]]; then
+	mv /etc/xdg/xfce4/terminal/terminalrc /etc/xdg/xfce4/terminal/terminalrc.old
+fi
+
+if [[ -e /etc/xdg/xfce4/whiskermenu/defaults.rc ]]; then
+	mv /etc/xdg/xfce4/whiskermenu/defaults.rc /etc/xdg/xfce4/whiskermenu/defaults.rc.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old
+fi
+
+if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml ]]; then
+	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old
+fi
+
+fi
+
+#if [[ -e /etc/xdg/kdeglobals ]]; then
+#	mv /etc/xdg/kdeglobals /etc/xdg/kdeglobals.old
+#fi
+
+if [[ -e /etc/xdg/konsolerc ]]; then
+	mv /etc/xdg/konsolerc /etc/xdg/konsolerc.old
+fi
+
+if [[ -e /etc/xdg/kscreenlockerrc ]]; then
+	mv /etc/xdg/kscreenlockerrc /etc/xdg/kscreenlockerrc.old
+fi
+
+if [[ -e /etc/xdg/kwinrc ]]; then
+	mv /etc/xdg/kwinrc /etc/xdg/kwinrc.old
+fi
+
+if [[ -e /etc/xdg/plasmarc ]]; then
+	mv /etc/xdg/plasmarc /etc/xdg/plasmarc.old
+fi
+
+case "$1" in
+	upgrade|dist-upgrade|full-upgrade)
+		if dpkg --compare-versions "$2" lt 2.1+kaisen5; then
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/cmst/cmst.conf.old --add /etc/xdg/cmst/cmst.conf
+        		dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/featherpad/fp.conf.old --add /etc/xdg/featherpad/fp.conf
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/qterminal.org/qterminal.ini.old --add /etc/xdg/qterminal.org/qterminal.ini
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/helpers.rc.old --add /etc/xdg/xfce4/helpers.rc
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/panel/default.xml.old --add /etc/xdg/xfce4/panel/default.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/terminal/terminalrc.old --add /etc/xdg/xfce4/terminal/terminalrc
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/whiskermenu/defaults.rc.old --add /etc/xdg/xfce4/whiskermenu/defaults.rc
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+#			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kdeglobals.old --add /etc/xdg/kdeglobals
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/konsolerc.old --add /etc/xdg/konsolerc
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kscreenlockerrc.old --add /etc/xdg/kscreenlockerrc
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kwinrc.old --add /etc/xdg/kwinrc
+			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/plasmarc.old --add /etc/xdg/plasmarc
+		fi
+	;;
+esac

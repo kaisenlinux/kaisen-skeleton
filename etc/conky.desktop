@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Kaisen Linux Conky
-Exec=/usr/bin/conky
-Hidden=false
-Type=Application
-X-KDE-Autostart-enabled=true
-X-LXQt-Autostart-enabled=true
-X-MATE-Autostart-enabled=true
-X-XFCE-Autostart-enabled=true
