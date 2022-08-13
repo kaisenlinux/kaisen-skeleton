@@ -133,8 +133,9 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-AccentColor=143,23,21
+AccentColor[$d]
 BrowserApplication[$e]=firefox.desktop
+ColorScheme=Kaisen
 ColorSchemeHash=ba6d294caae65ad228dfc205c32c071b7dcacea9
 Name=Kaisen
 TerminalApplication=terminator

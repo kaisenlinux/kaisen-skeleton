@@ -14,8 +14,10 @@ kaisen-skeleton (2.1+kaisen5) kaisen-packages; urgency=medium
   * Migration of few files for the KDE profile in the /etc/xdg directory
   * Addition of Kaisen look-and-feel KDE theme (customization of the official Dark
     Breeze theme for KDE)
+  * The LXQt default profile is now installed in /etc/xdg instead of the /etc/skel folder
+  * GTK defaults settings are now installed in /etc/xdg instead of the /etc/skel folder 
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 11 Aug 2022 10:24:29 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 13 Aug 2022 02:02:18 +0100
 
 kaisen-skeleton (2.1+kaisen4) kaisen-packages; urgency=medium
 

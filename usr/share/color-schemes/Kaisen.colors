@@ -76,7 +76,7 @@ ForegroundVisited=155,89,182
 
 [Colors:Selection]
 BackgroundAlternate=108,25,24
-BackgroundNormal=108,25,24
+BackgroundNormal=143,23,21
 DecorationFocus=143,23,21
 DecorationHover=143,23,21
 ForegroundActive=143,23,21
@@ -131,8 +131,9 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
+Name=Kaisen
 accentActiveTitlebar=true
-accentInactiveTitlebar=false
+accentInactiveTitlebar=true
 shadeSortColumn=true
 
 [KDE]
