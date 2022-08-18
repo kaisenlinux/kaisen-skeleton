@@ -2,8 +2,6 @@
 
 set -e
 
-if [[ -z "$2" ]]; then
-
 #Setup diversions
 if [[ -e /etc/xdg/cmst/cmst.conf ]]; then
 	cp /etc/xdg/cmst/cmst.conf /etc/xdg/cmst/cmst.conf.old
@@ -283,5 +281,4 @@ if [[ -e /etc/xdg/gtkrc-4.0/settings.ini ]]; then
 	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-4.0/settings.ini.old --add /etc/xdg/gtkrc-4.0/settings.ini
 else
 	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-4.0/settings.ini.old --add /etc/xdg/gtkrc-4.0/settings.ini
-fi
 fi

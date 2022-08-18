@@ -1,3 +1,10 @@
+kaisen-skeleton (2.1+kaisen8) kaisen-packages; urgency=medium
+
+  * Deletion of the kaisen-update-skel command
+  * Replace of $2 if statement in the preinst script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 18 Aug 2022 22:23:32 +0100
+
 kaisen-skeleton (2.1+kaisen7) kaisen-packages; urgency=medium
   
   * Define the gtk-prefer-dark-theme at false for GTK4
@@ -6,7 +13,7 @@ kaisen-skeleton (2.1+kaisen7) kaisen-packages; urgency=medium
 
 kaisen-skeleton (2.1+kaisen6) kaisen-packages; urgency=medium
 
-  * Fix no diverted files when no files are installed for XFCe and LXQT
+  * Fix no diverted files when no files are installed for XFCE and LXQt
   * Add prerm script to remove diversions
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 17 Aug 2022 23:48:06 +0100
