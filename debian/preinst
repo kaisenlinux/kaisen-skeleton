@@ -4,212 +4,284 @@ set -e
 
 if [[ -z "$2" ]]; then
 
+#Setup diversions
 if [[ -e /etc/xdg/cmst/cmst.conf ]]; then
-	mv /etc/xdg/cmst/cmst.conf /etc/xdg/cmst/cmst.conf.old
+	cp /etc/xdg/cmst/cmst.conf /etc/xdg/cmst/cmst.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/cmst/cmst.conf.old --add /etc/xdg/cmst/cmst.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/cmst/cmst.conf.old --add /etc/xdg/cmst/cmst.conf
 fi
 
 if [[ -e /etc/xdg/featherpad/fp.conf ]]; then
-	mv /etc/xdg/featherpad/fp.conf /etc/xdg/featherpad/fp.conf.old
+	cp /etc/xdg/featherpad/fp.conf /etc/xdg/featherpad/fp.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/featherpad/fp.conf.old --add /etc/xdg/featherpad/fp.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/featherpad/fp.conf.old --add /etc/xdg/featherpad/fp.conf
 fi
 
 if [[ -e /etc/xdg/qterminal.org/qterminal.ini ]]; then
-	mv /etc/xdg/qterminal.org/qterminal.ini /etc/xdg/qterminal.org/qterminal.ini.old
+	cp /etc/xdg/qterminal.org/qterminal.ini /etc/xdg/qterminal.org/qterminal.ini.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/qterminal.org/qterminal.ini.old --add /etc/xdg/qterminal.org/qterminal.ini
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/qterminal.org/qterminal.ini.old --add /etc/xdg/qterminal.org/qterminal.ini
 fi
 
 if [[ -e /etc/xdg/xfce4/helpers.rc ]]; then
-	mv /etc/xdg/xfce4/helpers.rc /etc/xdg/xfce4/helpers.rc.old
+	cp /etc/xdg/xfce4/helpers.rc /etc/xdg/xfce4/helpers.rc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/helpers.rc.old --add /etc/xdg/xfce4/helpers.rc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/helpers.rc.old --add /etc/xdg/xfce4/helpers.rc
 fi
 
 if [[ -e /etc/xdg/xfce4/panel/default.xml ]]; then
-	mv /etc/xdg/xfce4/panel/default.xml /etc/xdg/xfce4/panel/default.xml.old
+	cp /etc/xdg/xfce4/panel/default.xml /etc/xdg/xfce4/panel/default.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/panel/default.xml.old --add /etc/xdg/xfce4/panel/default.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/panel/default.xml.old --add /etc/xdg/xfce4/panel/default.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/terminal/terminalrc ]]; then
-	mv /etc/xdg/xfce4/terminal/terminalrc /etc/xdg/xfce4/terminal/terminalrc.old
+	cp /etc/xdg/xfce4/terminal/terminalrc /etc/xdg/xfce4/terminal/terminalrc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/terminal/terminalrc.old --add /etc/xdg/xfce4/terminal/terminalrc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/terminal/terminalrc.old --add /etc/xdg/xfce4/terminal/terminalrc
 fi
 
 if [[ -e /etc/xdg/xfce4/whiskermenu/defaults.rc ]]; then
-	mv /etc/xdg/xfce4/whiskermenu/defaults.rc /etc/xdg/xfce4/whiskermenu/defaults.rc.old
+	cp /etc/xdg/xfce4/whiskermenu/defaults.rc /etc/xdg/xfce4/whiskermenu/defaults.rc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/whiskermenu/defaults.rc.old --add /etc/xdg/xfce4/whiskermenu/defaults.rc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/whiskermenu/defaults.rc.old --add /etc/xdg/xfce4/whiskermenu/defaults.rc
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 fi
 
 if [[ -e /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml ]]; then
-	mv /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old
+	cp /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 fi
 
 if [[ -e /etc/xdg/katerc ]]; then
-        mv /etc/xdg/katerc /etc/xdg/katerc.old
+        cp /etc/xdg/katerc /etc/xdg/katerc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/katerc.old --add /etc/xdg/katerc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/katerc.old --add /etc/xdg/katerc
 fi
 
 if [[ -e /etc/xdg/katevirc ]]; then
-        mv /etc/xdg/katevirc /etc/xdg/katevirc.old
+        cp /etc/xdg/katevirc /etc/xdg/katevirc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/katevirc.old --add /etc/xdg/katevirc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/katevirc.old --add /etc/xdg/katevirc
 fi
 
 if [[ -e /etc/xdg/kdeglobals ]]; then
-	mv /etc/xdg/kdeglobals /etc/xdg/kdeglobals.old
+	cp /etc/xdg/kdeglobals /etc/xdg/kdeglobals.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kdeglobals.old --add /etc/xdg/kdeglobals
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/kdeglobals.old --add /etc/xdg/kdeglobals
 fi
 
 if [[ -e /etc/xdg/konsolerc ]]; then
-	mv /etc/xdg/konsolerc /etc/xdg/konsolerc.old
+	cp /etc/xdg/konsolerc /etc/xdg/konsolerc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/konsolerc.old --add /etc/xdg/konsolerc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/konsolerc.old --add /etc/xdg/konsolerc
 fi
 
 if [[ -e /etc/xdg/kscreenlockerrc ]]; then
-	mv /etc/xdg/kscreenlockerrc /etc/xdg/kscreenlockerrc.old
+	cp /etc/xdg/kscreenlockerrc /etc/xdg/kscreenlockerrc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kscreenlockerrc.old --add /etc/xdg/kscreenlockerrc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/kscreenlockerrc.old --add /etc/xdg/kscreenlockerrc
 fi
 
 if [[ -e /etc/xdg/ksmserverrc ]]; then
-        mv /etc/xdg/ksmserverrc /etc/xdg/ksmserverrc.old
+        cp /etc/xdg/ksmserverrc /etc/xdg/ksmserverrc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/ksmserverrc.old --add /etc/xdg/ksmserverrc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/ksmserverrc.old --add /etc/xdg/ksmserverrc
 fi
 
 if [[ -e /etc/xdg/kwinrc ]]; then
-	mv /etc/xdg/kwinrc /etc/xdg/kwinrc.old
+	cp /etc/xdg/kwinrc /etc/xdg/kwinrc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kwinrc.old --add /etc/xdg/kwinrc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/kwinrc.old --add /etc/xdg/kwinrc
 fi
 
 if [[ -e /etc/xdg/kwriterc ]]; then
-        mv /etc/xdg/kwriterc /etc/xdg/kwriterc.old
+        cp /etc/xdg/kwriterc /etc/xdg/kwriterc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kwriterc.old --add /etc/xdg/kwriterc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/kwriterc.old --add /etc/xdg/kwriterc
 fi
 
 if [[ -e /etc/xdg/plasmarc ]]; then
-	mv /etc/xdg/plasmarc /etc/xdg/plasmarc.old
+	cp /etc/xdg/plasmarc /etc/xdg/plasmarc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/plasmarc.old --add /etc/xdg/plasmarc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/plasmarc.old --add /etc/xdg/plasmarc
 fi
 
 if [[ -e /etc/xdg/lxqt/filedialog.conf ]]; then
-	mv /etc/xdg/lxqt/filedialog.conf /etc/xdg/lxqt/filedialog.conf.old
+	cp /etc/xdg/lxqt/filedialog.conf /etc/xdg/lxqt/filedialog.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/filedialog.conf.old --add /etc/xdg/lxqt/filedialog.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/filedialog.conf.old --add /etc/xdg/lxqt/filedialog.conf
 fi
 
 if [[ -e /etc/xdg/lxqt/lxqt.conf ]]; then
-        mv /etc/xdg/lxqt/lxqt.conf /etc/xdg/lxqt/lxqt.old
+        cp /etc/xdg/lxqt/lxqt.conf /etc/xdg/lxqt/lxqt.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt.conf.old --add /etc/xdg/lxqt/lxqt.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt.conf.old --add /etc/xdg/lxqt/lxqt.conf
 fi
 
 if [[ -e /etc/xdg/lxqt/lxqt-config-appearance.conf ]]; then
-        mv /etc/xdg/lxqt/lxqt-config-appearance.conf /etc/xdg/lxqt/lxqt-config-appearance.conf.old
+        cp /etc/xdg/lxqt/lxqt-config-appearance.conf /etc/xdg/lxqt/lxqt-config-appearance.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt-config-appearance.conf.old --add /etc/xdg/lxqt/lxqt-config-appearance.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt-config-appearance.conf.old --add /etc/xdg/lxqt/lxqt-config-appearance.conf
 fi
 
 if [[ -e /etc/xdg/lxqt/lxqt-powermanagement.conf ]]; then
-        mv /etc/xdg/lxqt/lxqt-powermanagement.conf /etc/xdg/lxqt/lxqt-powermanagement.conf.old
+        cp /etc/xdg/lxqt/lxqt-powermanagement.conf /etc/xdg/lxqt/lxqt-powermanagement.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt-powermanagement.conf.old --add /etc/xdg/lxqt/lxqt-powermanagement.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt-powermanagement.conf.old --add /etc/xdg/lxqt/lxqt-powermanagement.conf
 fi
 
 if [[ -e /etc/xdg/lxqt/notifications.conf ]]; then
-        mv /etc/xdg/lxqt/notifications.conf /etc/xdg/lxqt/notifications.conf.old
+        cp /etc/xdg/lxqt/notifications.conf /etc/xdg/lxqt/notifications.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/notifications.conf.old --add /etc/xdg/lxqt/notifications.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/notifications.conf.old --add /etc/xdg/lxqt/notifications.conf
 fi
 
 if [[ -e /etc/xdg/lxqt/panel.conf ]]; then
-        mv /etc/xdg/lxqt/panel.conf /etc/xdg/lxqt/panel.conf.old
+        cp /etc/xdg/lxqt/panel.conf /etc/xdg/lxqt/panel.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/panel.conf.old --add /etc/xdg/lxqt/panel.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/panel.conf.old --add /etc/xdg/lxqt/panel.conf
 fi
 
 if [[ -e /etc/xdg/lxqt/session.conf ]]; then
-        mv /etc/xdg/lxqt/session.conf /etc/xdg/lxqt/session.old
+        cp /etc/xdg/lxqt/session.conf /etc/xdg/lxqt/session.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/session.conf.old --add /etc/xdg/lxqt/session.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/lxqt/session.conf.old --add /etc/xdg/lxqt/session.conf
 fi
 
 if [[ -e /etc/xdg/openbox/lxqt-rc.xml ]]; then
-        mv /etc/xdg/openbox/lxqt-rc.xml /etc/xdg/openbox/lxqt-rc.xml.old
+        cp /etc/xdg/openbox/lxqt-rc.xml /etc/xdg/openbox/lxqt-rc.xml.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/openbox/lxqt-rc.xml.old --add /etc/xdg/openbox/lxqt-rc.xml
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/openbox/lxqt-rc.xml.old --add /etc/xdg/openbox/lxqt-rc.xml
 fi
 
 if [[ -e /etc/xdg/pcmanfm-qt/lxqt/settings.conf ]]; then
-        mv /etc/xdg/pcmanfm-qt/lxqt/settings.conf /etc/xdg/pcmanfm-qt/lxqt/settings.conf.old
+        cp /etc/xdg/pcmanfm-qt/lxqt/settings.conf /etc/xdg/pcmanfm-qt/lxqt/settings.conf.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/pcmanfm-qt/lxqt/settings.conf.old --add /etc/xdg/pcmanfm-qt/lxqt/settings.conf
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/pcmanfm-qt/lxqt/settings.conf.old --add /etc/xdg/pcmanfm-qt/lxqt/settings.conf
 fi
 
 if [[ -e /etc/xdg/gtkrc ]]; then
-        mv /etc/xdg/gtkrc /etc/xdg/gtkrc.old
+        cp /etc/xdg/gtkrc /etc/xdg/gtkrc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc.old --add /etc/xdg/gtkrc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc.old --add /etc/xdg/gtkrc
 fi
 
 if [[ -e /etc/xdg/gtkrc-2.0 ]]; then
-        mv /etc/xdg/gtkrc-2.0 /etc/xdg/gtkrc-2.0.old
+        cp /etc/xdg/gtkrc-2.0 /etc/xdg/gtkrc-2.0.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-2.0.old --add /etc/xdg/gtkrc-2.0
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-2.0.old --add /etc/xdg/gtkrc-2.0
 fi
 
 if [[ -e /etc/xdg/gtkrc-3.0/colors.css ]]; then
-        mv /etc/xdg/gtkrc-3.0/colors.css /etc/xdg/gtkrc-3.0/colors.css.old
+        cp /etc/xdg/gtkrc-3.0/colors.css /etc/xdg/gtkrc-3.0/colors.css.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/colors.css.old --add /etc/xdg/gtkrc-3.0/colors.css
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/colors.css.old --add /etc/xdg/gtkrc-3.0/colors.css
 fi
 
 if [[ -e /etc/xdg/gtkrc-3.0/gtk.css ]]; then
-        mv /etc/xdg/gtkrc-3.0/gtk.css /etc/xdg/gtkrc-3.0/gtk.css.old
+        cp /etc/xdg/gtkrc-3.0/gtk.css /etc/xdg/gtkrc-3.0/gtk.css.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtk.css.old --add /etc/xdg/gtkrc-3.0/gtk.css
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtk.css.old --add /etc/xdg/gtkrc-3.0/gtk.css
 fi
 
 if [[ -e /etc/xdg/gtkrc-3.0/gtkrc ]]; then
-        mv /etc/xdg/gtkrc-3.0/gtkrc /etc/xdg/gtkrc-3.0/gtkrc.old
+        cp /etc/xdg/gtkrc-3.0/gtkrc /etc/xdg/gtkrc-3.0/gtkrc.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc.old --add /etc/xdg/gtkrc-3.0/gtkrc
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc.old --add /etc/xdg/gtkrc-3.0/gtkrc
 fi
 
 if [[ -e /etc/xdg/gtkrc-3.0/gtkrc-2.0 ]]; then
-        mv /etc/xdg/gtkrc-3.0/gtkrc-2.0 /etc/xdg/gtkrc-3.0/gtkrc-2.0.old
+        cp /etc/xdg/gtkrc-3.0/gtkrc-2.0 /etc/xdg/gtkrc-3.0/gtkrc-2.0.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc-2.0.old --add /etc/xdg/gtkrc-3.0/gtkrc-2.0
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc-2.0.old --add /etc/xdg/gtkrc-3.0/gtkrc-2.0
 fi
 
 if [[ -e /etc/xdg/gtkrc-3.0/settings.ini ]]; then
-        mv /etc/xdg/gtkrc-3.0/settings.ini /etc/xdg/gtkrc-3.0/settings.ini.old
+        cp /etc/xdg/gtkrc-3.0/settings.ini /etc/xdg/gtkrc-3.0/settings.ini.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/settings.ini.old --add /etc/xdg/gtkrc-3.0/settings.ini
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/settings.ini.old --add /etc/xdg/gtkrc-3.0/settings.ini
 fi
 
 if [[ -e /etc/xdg/gtkrc-4.0/settings.ini ]]; then
-        mv /etc/xdg/gtkrc-4.0/settings.ini /etc/xdg/gtkrc-4.0/settings.ini.old
+        cp /etc/xdg/gtkrc-4.0/settings.ini /etc/xdg/gtkrc-4.0/settings.ini.old
+	dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-4.0/settings.ini.old --add /etc/xdg/gtkrc-4.0/settings.ini
+else
+	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-4.0/settings.ini.old --add /etc/xdg/gtkrc-4.0/settings.ini
 fi
-
 fi
-
-case "$1" in
-	upgrade|dist-upgrade|full-upgrade)
-		if dpkg --compare-versions "$2" lt 2.1+kaisen5; then
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/cmst/cmst.conf.old --add /etc/xdg/cmst/cmst.conf
-        		dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/featherpad/fp.conf.old --add /etc/xdg/featherpad/fp.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/qterminal.org/qterminal.ini.old --add /etc/xdg/qterminal.org/qterminal.ini
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/helpers.rc.old --add /etc/xdg/xfce4/helpers.rc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/panel/default.xml.old --add /etc/xdg/xfce4/panel/default.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/terminal/terminalrc.old --add /etc/xdg/xfce4/terminal/terminalrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/whiskermenu/defaults.rc.old --add /etc/xdg/xfce4/whiskermenu/defaults.rc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml.old --add /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/katerc.old --add /etc/xdg/katerc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/katevirc.old --add /etc/xdg/katevirc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kdeglobals.old --add /etc/xdg/kdeglobals
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/konsolerc.old --add /etc/xdg/konsolerc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kscreenlockerrc.old --add /etc/xdg/kscreenlockerrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/ksmserverrc.old --add /etc/xdg/ksmserverrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kwinrc.old --add /etc/xdg/kwinrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/kwriterc.old --add /etc/xdg/kwriterc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/plasmarc.old --add /etc/xdg/plasmarc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/filedialog.conf.old --add /etc/xdg/lxqt/filedialog.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt.conf.old --add /etc/xdg/lxqt/lxqt.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt-config-appearance.conf.old --add /etc/xdg/lxqt/lxqt-config-appearance.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/lxqt-powermanagement.conf.old --add /etc/xdg/lxqt/lxqt-powermanagement.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/notifications.conf.old --add /etc/xdg/lxqt/notifications.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/panel.conf.old --add /etc/xdg/lxqt/panel.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/lxqt/session.conf.old --add /etc/xdg/lxqt/session.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/openbox/lxqt-rc.xml.old --add /etc/xdg/openbox/lxqt-rc.xml
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/pcmanfm-qt/lxqt/settings.conf.old --add /etc/xdg/pcmanfm-qt/lxqt/settings.conf
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc.old --add /etc/xdg/gtkrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-2.0.old --add /etc/xdg/gtkrc-2.0
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/colors.css.old --add /etc/xdg/gtkrc-3.0/colors.css
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtk.css.old --add /etc/xdg/gtkrc-3.0/gtk.css
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc.old --add /etc/xdg/gtkrc-3.0/gtkrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc-2.0.old --add /etc/xdg/gtkrc-3.0/gtkrc-2.0
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/gtkrc.old --add /etc/xdg/gtkrc-3.0/gtkrc
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-3.0/settings.ini.old --add /etc/xdg/gtkrc-3.0/settings.ini
-			dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-4.0/settings.ini.old --add /etc/xdg/gtkrc-4.0/settings.ini
-		fi
-	;;
-esac

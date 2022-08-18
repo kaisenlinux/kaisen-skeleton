@@ -1,3 +1,12 @@
+kaisen-skeleton (2.1+kaisen6) kaisen-packages; urgency=medium
+
+  * Install diverted files in /usr/share/kaisen-skeleton/diverted-files to remove
+    the dpkg conffile messages
+  * Fix no diverted files when no files are installed for XFCe and LXQT
+  * Add prerm script to remove diversions
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 17 Aug 2022 23:48:06 +0100
+
 kaisen-skeleton (2.1+kaisen5) kaisen-packages; urgency=medium
 
   * Install XFCE default profile with conffiles in the /etc/xdg folder

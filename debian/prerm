@@ -1,0 +1,52 @@
+#!/bin/bash
+
+set -e
+
+case "$1" in
+        purge|remove|autoremove)
+		#Remove diversion
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/cmst/cmst.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/featherpad/fp.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/qterminal.org/qterminal.ini
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/helpers.rc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/panel/default.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/terminal/terminalrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/whiskermenu/defaults.rc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/katerc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/katevirc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/kdeglobals
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/konsolerc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/kscreenlockerrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/ksmserverrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/kwinrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/kwriterc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/plasmarc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/filedialog.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/lxqt.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/lxqt-config-appearance.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/lxqt-powermanagement.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/notifications.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/panel.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/lxqt/session.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/openbox/lxqt-rc.xml
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/pcmanfm-qt/lxqt/settings.conf
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-2.0
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/colors.css
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/gtk.css
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/gtkrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/gtkrc-2.0
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/gtkrc
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/settings.ini
+		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-4.0/settings.ini
+	;;
+esac
+
+#DEBHELPER#
