@@ -1,3 +1,10 @@
+kaisen-skeleton (2.1+kaisen9) kaisen-packages; urgency=medium
+
+  * Update the qterminal configuration
+  * Fix organization in columns of icons in the desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 19 Aug 2022 07:06:39 +0100
+
 kaisen-skeleton (2.1+kaisen8) kaisen-packages; urgency=medium
 
   * Deletion of the kaisen-update-skel command

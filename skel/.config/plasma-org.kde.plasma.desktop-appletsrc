@@ -158,8 +158,8 @@ extraItems=org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.c
 iconSpacing=1
 knownItems=org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.kupapplet,org.kde.plasma.networkmanagement,org.kde.plasma.vault
 
-[Containments][56]
-activityId=f0c52099-b3c7-492e-b89b-e9ec37ca6599
+[Containments][57]
+activityId=ec865355-5a09-46b3-94df-858eeae15bed
 formfactor=0
 immutability=1
 lastScreen=0
@@ -167,8 +167,8 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][56][General]
+[Containments][57][General]
 arrangement=1
 
-[Containments][56][Wallpaper][org.kde.image][General]
+[Containments][57][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/desktop-base/kaisen-theme/wallpaper/contents/images/1920x1080.png
