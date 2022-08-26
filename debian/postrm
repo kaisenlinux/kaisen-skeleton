@@ -4,7 +4,7 @@ set -e
 
 case "$1" in
 	upgrade|full-upgrade|dist-upgrade|downgrade|abort-upgrade|purge|remove|autoremove)
-	rm -rf /etc/skel/.[^.]*
+	rm -rf /etc/skel/{.bashrc,.config,.face,.face.icon,.gtkrc-2.0,.oh-my-zsh,.zshrc}
 	rm -rf /usr/local/share/konsole
 ;;
 esac

@@ -1,3 +1,11 @@
+kaisen-skeleton (2.1+kaisen10) kaisen-packages; urgency=medium
+
+  * Add the kactivitymanagerdrc file to keep the activityID
+  * Remove the regex in the postrm file to keep older .* file potentially
+    added by other packages in the /etc/skel directory
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Aug 2022 18:40:22 +0100
+
 kaisen-skeleton (2.1+kaisen9) kaisen-packages; urgency=medium
 
   * Update the qterminal configuration

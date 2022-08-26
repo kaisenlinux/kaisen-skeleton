@@ -7,7 +7,7 @@ if [[ "$1" = "configure" ]]; then
 	then
 		dconf update || true
 	fi
-	git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh 2> /dev/null || true
+	git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh || true
 fi
 
 #Copying default profile on /etc/skel
