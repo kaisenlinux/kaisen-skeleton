@@ -12,4 +12,14 @@ Package: kaisen-skeleton
 Architecture: all
 Priority: standard
 Depends: git, fonts-powerline,
+Replaces: kaisen-firefox,
+	  kaisen-kde,
+          kaisen-lxde,
+          kaisen-lxqt,
+          kaisen-mate,
+          kaisen-xfce,
+	  kaisen-kde-default-profile,
+	  kaisen-lxde-default-profile,
+	  kaisen-mate-default-profile,
+	  kaisen-xfce-default-profile,
 Description: Kaisen Linux defaults profiles for desktop environments
