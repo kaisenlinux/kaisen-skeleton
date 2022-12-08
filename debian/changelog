@@ -1,3 +1,10 @@
+kaisen-skeleton (2.2) kaisen-packages; urgency=medium
+
+  * Bump the version to 2.2
+  * No changes needed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 08 Dec 2022 18:33:15 +0100
+
 kaisen-skeleton (2.1+kaisen11) kaisen-packages; urgency=medium
 
   * Add the Replaces field in the control file
