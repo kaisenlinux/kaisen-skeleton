@@ -1,3 +1,10 @@
+kaisen-skeleton (2.2+kaisen1) kaisen-packages; urgency=medium
+
+  * Add the line: PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH" in the bashrc
+    and zhsrc files
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 13 Jan 2023 18:18:58 +0100
+
 kaisen-skeleton (2.2) kaisen-packages; urgency=medium
 
   * Bump the version to 2.2
