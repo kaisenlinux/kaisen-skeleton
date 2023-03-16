@@ -112,4 +112,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
+########## Kaisen settings, don't remove please ##########
+
+#Add the $HOME/.krew folder in the PATH
 PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+#Use apt full-upgrade instead of apt upgrade (user mode)
+sudo() { if [[ $@ == "apt upgrade" ]]; then command sudo apt full-upgrade; else command sudo "$@"; fi; }
+
+#Use apt full-upgrade instead of apt upgrade (root mode)
+apt() { if [[ $@ == "upgrade" ]]; then command apt full-upgrade; else command apt "$@"; fi; }
+
+########## Kaisen settings, end ##########

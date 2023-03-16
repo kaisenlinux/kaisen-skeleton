@@ -1,3 +1,11 @@
+kaisen-skeleton (2.2+kaisen2) kaisen-packages; urgency=medium
+
+  * Use apt full-upgrade instead of apt upgrade (aliases in bashrc and zshrc files)
+  * Add the Kaisen settings section (delimited by comments)
+  * Add the krew and systemd zsh completion in the Kaisen settings section
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 16 Mar 2023 02:17:19 +0100
+
 kaisen-skeleton (2.2+kaisen1) kaisen-packages; urgency=medium
 
   * Add the line: PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH" in the bashrc
