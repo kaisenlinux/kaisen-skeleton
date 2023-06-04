@@ -61,6 +61,8 @@ sort-type='ascending'
 action-double-click-titlebar='toggle_maximize'
 auto-raise-delay=500
 button-layout='menu:minimize,maximize,close'
+center-new-windows=true
+compositing-manager=true
 theme='Kaisen-Official'
 
 [org/mate/marco/workspace-names]
