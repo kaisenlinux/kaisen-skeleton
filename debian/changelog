@@ -1,10 +1,22 @@
-kaisen-skeleton (2.3) kaisen-packages; urgency=medium
+kaisen-skeleton (2.3+kaisen2) kaisen-packages; urgency=medium
 
-  * Bump the version to 2.3
+  * Bump the version to ensure updates
+  * No changes needed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 14 Jun 2023 12:53:48 +0100
+
+kaisen-skeleton (2.3+kaisen1) kaisen-packages; urgency=medium
+
   * Enable the compositor on MATE
   * Center new window automatically on MATE
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 05 Jun 2023 01:40:39 +0100
+
+kaisen-skeleton (2.3) kaisen-packages; urgency=medium
+
+  * Bump the version to 2.3
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 18 May 2023 18:25:17 +0100
 
 kaisen-skeleton (2.2+kaisen2) kaisen-packages; urgency=medium
 
