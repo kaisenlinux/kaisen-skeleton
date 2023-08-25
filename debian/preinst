@@ -282,3 +282,10 @@ if [[ -e /etc/xdg/gtkrc-4.0/settings.ini ]]; then
 else
 	dpkg-divert --quiet --rename --package kaisen-skeleton --divert /etc/xdg/gtkrc-4.0/settings.ini.old --add /etc/xdg/gtkrc-4.0/settings.ini
 fi
+
+if [[ -e /usr/share/fontconfig/conf.avail/60-latin.conf ]]; then
+        cp /usr/share/fontconfig/conf.avail/60-latin.conf /usr/share/fontconfig/conf.avail/60-latin.conf.old
+        dpkg-divert --quiet --no-rename --package kaisen-skeleton --divert /usr/share/fontconfig/conf.avail/60-latin.conf.old --add /usr/share/fontconfig/conf.avail/60-latin.conf
+else
+        dpkg-divert --quiet --rename --package kaisen-skeleton --divert /usr/share/fontconfig/conf.avail/60-latin.conf.old --add /usr/share/fontconfig/conf.avail/60-latin.conf
+fi

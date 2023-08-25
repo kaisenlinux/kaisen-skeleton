@@ -46,6 +46,7 @@ case "$1" in
 		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/gtkrc
 		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-3.0/settings.ini
 		dpkg-divert --quiet --no-rename --remove /etc/xdg/gtkrc-4.0/settings.ini
+		dpkg-divert --quiet --no-rename --remove /usr/share/fontconfig/conf.avail/60-latin.conf
 	;;
 esac
 
