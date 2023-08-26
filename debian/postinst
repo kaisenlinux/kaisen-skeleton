@@ -7,12 +7,16 @@ if [[ "$1" = "configure" ]]; then
 	then
 		dconf update || true
 	fi
+
+	if [[ ! -d /etc/skel/.oh-my-zsh ]]; then
 	git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel/.oh-my-zsh || true
+	else
+	git -C /etc/skel/.oh-my-zsh pull --quiet || true
+	fi
 fi
 
 #Copying default profile on /etc/skel
 cp -arf /usr/share/kaisen-skeleton/.[^.]* /etc/skel
-cp -arf /usr/share/kaisen-skeleton/konsole /usr/local/share
 rm -rf /usr/share/kaisen-skeleton/
 
 if [[ -z "$2" ]]; then

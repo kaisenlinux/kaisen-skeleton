@@ -1,3 +1,11 @@
+kaisen-skeleton (2.3+kaisen4) kaisen-packages; urgency=medium
+
+  * Install the konsole profile without use the postinst script
+  * If the /etc/skel/.oh-my-zsh directory already exists, just exec a git pull
+  * Remove the /etc/skel/.oh-my-zsh only when the package is purged
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 26 Aug 2023 13:34:27 +0100
+
 kaisen-skeleton (2.3+kaisen3) kaisen-packages; urgency=medium
 
   * Add the /usr/share/fontconfig/conf.avail/60-latin.conf to define Noto Sans Mono

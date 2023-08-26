@@ -10,4 +10,3 @@ install:
 	cp -af skel/.face.icon $(DESTDIR)/usr/share/kaisen-skeleton/
 	cp -f skel/.gtkrc-2.0 $(DESTDIR)/usr/share/kaisen-skeleton/
 	cp -rf skel/.config $(DESTDIR)/usr/share/kaisen-skeleton/
-	cp -rf konsole/ $(DESTDIR)/usr/share/kaisen-skeleton/
