@@ -3,6 +3,32 @@
 set -e
 
 if [[ "$1" = "configure" ]]; then
+    if dpkg --compare-versions "$2" lt "2.3+kaisen5"; then
+        for users in $(awk -F: '/\/home/ {printf "%s:%s\n",$1,$3}' /etc/passwd | cut -d: -f1)
+        do
+		if [[ `sha256sum /home/$users/.face 2>/dev/null` = "10adb31a807d1e5ceab1afd6a416bbb60a3e29b306cf51788f81c4cfd37666be  /home/$users/.face" ]]; then
+                	cp -af /usr/share/kaisen-skeleton/.face /home/$users && chown -R $users: /home/$users
+		fi
+		if [[ `grep "kaisen.[ps][nv]g" /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "icon=/usr/share/pixmaps/kaisen/kaisen.png" ]]; then
+			sed -i 's/icon=\/usr\/share\/pixmaps\/kaisen\/kaisen.png/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen-icon.svg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+		fi
+		if [[ `grep "kaisen.[ps][nv]g" /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "customButtonImage=/usr/share/pixmaps/kaisen-logos/kaisen.svg" ]]; then
+			sed -i 's/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen.svg/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen-icon.svg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+		fi
+        done
+	if [[ `sha256sum /root/.face 2>/dev/null` = "10adb31a807d1e5ceab1afd6a416bbb60a3e29b306cf51788f81c4cfd37666be  /root/.face" ]]; then
+        	cp -af /usr/share/kaisen-skeleton/.face /root
+	fi
+	if [[ `grep "kaisen.[ps][nv]g" /root/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "icon=/usr/share/pixmaps/kaisen/kaisen.png" ]]; then
+		sed -i 's/icon=\/usr\/share\/pixmaps\/kaisen\/kaisen.png/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen-icon.svg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+	fi
+	if [[ `grep "kaisen.[ps][nv]g" /root/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "customButtonImage=/usr/share/pixmaps/kaisen-logos/kaisen.svg" ]]; then
+		sed -i 's/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen.svg/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen-icon.svg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+	fi
+    fi
+fi
+
+if [[ "$1" = "configure" ]]; then
 	if command -v dconf &> /dev/null
 	then
 		dconf update || true

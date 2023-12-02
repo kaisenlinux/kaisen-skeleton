@@ -1,3 +1,12 @@
+kaisen-skeleton (2.3+kaisen5) kaisen-packages; urgency=medium
+
+  * Add the new .face icon for KDE
+  * Update the postinst script to update the .face automatically for users and root
+  * Change launch icon for XFCE
+  * Update the application icon for LXQT
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 02 Dec 2023 19:34:27 +0100
+
 kaisen-skeleton (2.3+kaisen4) kaisen-packages; urgency=medium
 
   * Install the konsole profile without use the postinst script

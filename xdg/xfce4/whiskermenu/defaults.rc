@@ -1,6 +1,6 @@
 favorites=kaisenterminal.desktop,firefox.desktop,xfce4-screenshooter.desktop,thunar.desktop,org.gnome.gedit.desktop
 recent=
-button-icon=/usr/share/pixmaps/kaisen-logos/kaisen.png
+button-icon=/usr/share/pixmaps/kaisen-logos/kaisen-icon.png
 button-single-row=false
 show-button-title=true
 show-button-icon=true
