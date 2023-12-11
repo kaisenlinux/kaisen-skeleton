@@ -17,9 +17,9 @@ FallbackTheme=kaisen
 
 [Wallpaper]
 defaultWallpaperTheme=kaisen
-defaultFileSuffix=.png
-defaultWidth=1920
-defaultHeight=1080
+defaultFileSuffix=.jpg
+defaultWidth=3840
+defaultHeight=2160
 
 [ContrastEffect]
 enabled=true

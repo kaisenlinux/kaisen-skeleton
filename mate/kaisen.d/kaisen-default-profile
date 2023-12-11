@@ -28,7 +28,7 @@ enable-delete=true
 
 [org/mate/desktop/background]
 color-shading-type='vertical-gradient'
-picture-filename='/usr/share/backgrounds/kaisen-theme.png'
+picture-filename='/usr/share/backgrounds/kaisen-theme.jpg'
 picture-options='wallpaper'
 primary-color='rgb(39,88,126)'
 secondary-color='rgb(98,127,90)'
@@ -204,7 +204,7 @@ statusbar-visible=true
 [org/mate/screensaver]
 idle-activation-enabled=true
 mode='single'
-picture-filename='/usr/share/backgrounds/kaisen-theme.png'
+picture-filename='/usr/share/backgrounds/kaisen-theme.jpg'
 themes=['screensavers-footlogo-floaters']
 
 [org/mate/terminal/profiles/default]

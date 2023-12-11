@@ -65,8 +65,8 @@
     <artist>Timothy Schellhase, Lapo Calamandrei</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-additionnal2.png</name>
-    <filename>/usr/share/backgrounds/kaisen-additionnal2.png</filename>
+    <name>kaisen-additionnal2.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additionnal2.jpg</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
@@ -119,8 +119,8 @@
     <artist>Charles Barbin</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-cassis.png</name>
-    <filename>/usr/share/backgrounds/kaisen-cassis.png</filename>
+    <name>kaisen-cassis.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-cassis.jpg</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
@@ -164,8 +164,8 @@
     <artist>Wyng Stancikaite</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-lightdm.png</name>
-    <filename>/usr/share/backgrounds/kaisen-lightdm.png</filename>
+    <name>kaisen-lightdm.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-lightdm.jpg</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
@@ -173,8 +173,8 @@
     <artist/>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-additionnal1.png</name>
-    <filename>/usr/share/backgrounds/kaisen-additionnal1.png</filename>
+    <name>kaisen-additionnal1.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additionnal1.jpg</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
@@ -308,8 +308,8 @@
     <artist>Wyng Stancikaite</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-sddm.png</name>
-    <filename>/usr/share/backgrounds/kaisen-sddm.png</filename>
+    <name>kaisen-sddm.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-sddm.jpg</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
@@ -335,8 +335,8 @@
     <artist>Lennart Poettering, Andrea Cimitan</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-theme.png</name>
-    <filename>/usr/share/backgrounds/kaisen-theme.png</filename>
+    <name>kaisen-theme.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-theme.jpg</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>

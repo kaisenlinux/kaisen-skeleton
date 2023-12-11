@@ -2,10 +2,15 @@ kaisen-skeleton (2.3+kaisen5) kaisen-packages; urgency=medium
 
   * Add the new .face icon for KDE
   * Update the postinst script to update the .face automatically for users and root
+    and update the MATE wallpapers list
   * Change launch icon for XFCE
   * Update the application icon for LXQT
+  * Change default wallpaper in JPG file
+  * Update wallpapers list for MATE
+  * Update the preview for the KDE Kaisen theme
+  * Update the default plasma-org.kde.plasma.desktop-appletsrc config
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 02 Dec 2023 19:34:27 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 11 Dec 2023 02:29:20 +0100
 
 kaisen-skeleton (2.3+kaisen4) kaisen-packages; urgency=medium
 

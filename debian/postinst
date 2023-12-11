@@ -15,6 +15,38 @@ if [[ "$1" = "configure" ]]; then
 		if [[ `grep "kaisen.[ps][nv]g" /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "customButtonImage=/usr/share/pixmaps/kaisen-logos/kaisen.svg" ]]; then
 			sed -i 's/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen.svg/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen-icon.svg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
 		fi
+		if [[ -e /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc ]]; then
+			sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+			sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal1-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal1-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+			sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal2-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal2-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+			sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-cassis-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-cassis-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+			sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-lightdm-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-lightdm-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+			sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-sddm-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-sddm-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
+		fi
+		if [[ -e /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml ]]; then
+			sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+			sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+			sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+			sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+			sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+			sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		fi
+		if [[ -e /home/$users/.config/mate/backgrounds.xml ]]; then
+			sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /home/$users/.config/mate/backgrounds.xml
+			sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /home/$users/.config/mate/backgrounds.xml
+			sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /home/$users/.config/mate/backgrounds.xml
+			sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /home/$users/.config/mate/backgrounds.xml
+			sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /home/$users/.config/mate/backgrounds.xml
+			sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /home/$users/.config/mate/backgrounds.xml
+		fi
+		if [[ -e /home/$users/.config/pcmanfm-qt/lxqt/settings.conf ]]; then
+			sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
+			sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
+			sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
+			sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
+			sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
+			sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
+		fi
         done
 	if [[ `sha256sum /root/.face 2>/dev/null` = "10adb31a807d1e5ceab1afd6a416bbb60a3e29b306cf51788f81c4cfd37666be  /root/.face" ]]; then
         	cp -af /usr/share/kaisen-skeleton/.face /root
@@ -24,6 +56,38 @@ if [[ "$1" = "configure" ]]; then
 	fi
 	if [[ `grep "kaisen.[ps][nv]g" /root/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "customButtonImage=/usr/share/pixmaps/kaisen-logos/kaisen.svg" ]]; then
 		sed -i 's/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen.svg/customButtonImage=\/usr\/share\/pixmaps\/kaisen-logos\/kaisen-icon.svg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+	fi
+	if [[ -e /root/.config/plasma-org.kde.plasma.desktop-appletsrc ]]; then
+		sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+		sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal1-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal1-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+		sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal2-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-additionnal2-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+		sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-cassis-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-cassis-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+		sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-lightdm-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-lightdm-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+		sed -i 's/file:\/\/\/usr\/share\/desktop-base\/kaisen-sddm-theme\/wallpaper\/contents\/images\/1920x1080.png/file:\/\/\/usr\/share\/desktop-base\/kaisen-sddm-theme\/wallpaper\/contents\/images\/3840x2160.jpg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
+	fi
+	if [[ -e /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml ]]; then
+		sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+		sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+	fi
+	if [[ -e /root/.config/mate/backgrounds.xml ]]; then
+		sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /root/.config/mate/backgrounds.xml
+		sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /root/.config/mate/backgrounds.xml
+		sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /root/.config/mate/backgrounds.xml
+		sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /root/.config/mate/backgrounds.xml
+		sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /root/.config/mate/backgrounds.xml
+		sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /root/.config/mate/backgrounds.xml
+	fi
+	if [[ -e /root/.config/pcmanfm-qt/lxqt/settings.conf ]]; then
+		sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf
+		sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf
+		sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf
+		sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf
+		sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf
+		sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf
 	fi
     fi
 fi
