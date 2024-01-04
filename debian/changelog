@@ -2,8 +2,9 @@ kaisen-skeleton (2.3+kaisen6) kaisen-packages; urgency=medium
 
   * Add the Kaisen-no-transparency theme for terminator
   * Add the Kaisen theme for terminator (same as the default theme)
+  * Add custom layouts
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 04 Jan 2024 01:23:39 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 04 Jan 2024 03:09:52 +0100
 
 kaisen-skeleton (2.3+kaisen5) kaisen-packages; urgency=medium
 

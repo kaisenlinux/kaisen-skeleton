@@ -46,4 +46,20 @@
       type = Terminal
       parent = window0
       profile = Kaisen
+  [[Kaisen]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      profile = Kaisen
+  [[Kaisen-no-transparent]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      profile = Kaisen-no-transparent
 [plugins]
