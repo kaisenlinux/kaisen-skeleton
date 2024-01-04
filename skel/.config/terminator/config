@@ -9,13 +9,34 @@
     icon_bell = False
     background_darkness = 0.7
     background_type = transparent
-    cursor_color = "#aaaaaa"
     font = Monospace 13
     foreground_color = "#00e1ff"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
     use_system_font = False
+  [[Kaisen]]
+    allow_bold = False
+    icon_bell = False
+    background_darkness = 0.7
+    background_type = transparent
+    font = Monospace 13
+    foreground_color = "#00e1ff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[Kaisen-no-transparent]]
+    allow_bold = False
+    icon_bell = False
+    background_darkness = 0.7
+    font = Monospace 13
+    foreground_color = "#00e1ff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+    use_theme_colors = True
 [layouts]
   [[default]]
     [[[window0]]]
@@ -24,5 +45,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = default
+      profile = Kaisen
 [plugins]
