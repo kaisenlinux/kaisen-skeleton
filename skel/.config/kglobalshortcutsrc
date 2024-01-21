@@ -1,0 +1,3 @@
+[kaisenterminal.desktop]
+_k_friendly_name=Kaisen Terminal
+_launch=Ctrl+Alt+T,none,Kaisen Terminal

@@ -1,3 +1,9 @@
+kaisen-skeleton (2.3+kaisen7) kaisen-packages; urgency=medium
+
+  * Use Kaisen Terminal instead of Konsole for the CTRL + ALT +T keyboard shortcut
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 21 Jan 2024 12:05:19 +0100
+
 kaisen-skeleton (2.3+kaisen6) kaisen-packages; urgency=medium
 
   * Add the Kaisen-no-transparency theme for terminator
