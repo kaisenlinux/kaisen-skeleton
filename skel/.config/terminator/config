@@ -3,6 +3,8 @@
   extra_styling = False
   inactive_color_offset = 0.8045977011494253
 [keybindings]
+  next_profile = <Primary><Super>m
+  previous_profile = <Primary><Super>q
 [profiles]
   [[default]]
     allow_bold = False

@@ -1,3 +1,9 @@
+kaisen-skeleton (2.3+kaisen8) kaisen-packages; urgency=medium
+
+  * Add keyboard shortcuts to change profiles for terminator
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Mar 2024 13:30:02 +0100
+
 kaisen-skeleton (2.3+kaisen7) kaisen-packages; urgency=medium
 
   * Use Kaisen Terminal instead of Konsole for the CTRL + ALT +T keyboard shortcut
