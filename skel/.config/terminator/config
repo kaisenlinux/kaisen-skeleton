@@ -39,6 +39,27 @@
     scrollback_infinite = True
     use_system_font = False
     use_theme_colors = True
+  [[Kaisen-black]]
+    allow_bold = False
+    icon_bell = False
+    background_darkness = 0.7
+    font = Monospace 13
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
+  [[Kaisen-white]]
+    allow_bold = False
+    icon_bell = False
+    background_color = "#ffffff"
+    background_darkness = 0.7
+    font = Monospace 13
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    use_system_font = False
 [layouts]
   [[default]]
     [[[window0]]]
@@ -64,4 +85,20 @@
       type = Terminal
       parent = child0
       profile = Kaisen-no-transparent
+  [[Kaisen-black]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      profile = Kaisen-black
+  [[Kaisen-white]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      profile = Kaisen-white
 [plugins]

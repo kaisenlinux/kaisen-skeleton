@@ -1,3 +1,9 @@
+kaisen-skeleton (2.3+kaisen9) kaisen-packages; urgency=medium
+
+  * Add Kaisen-black and Kaisen-white profiles
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 21 Mar 2024 07:37:27 +0100
+
 kaisen-skeleton (2.3+kaisen8) kaisen-packages; urgency=medium
 
   * Add keyboard shortcuts to change profiles for terminator
