@@ -1,3 +1,11 @@
+kaisen-skeleton (2.3+kaisen10) kaisen-packages; urgency=medium
+
+  * Add ip,grep and ll aliases
+  * Replace apt-get upgrade by apt-get full-upgrade
+  * Remove the debian/compat file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 15 Apr 2024 01:23:18 +0100
+
 kaisen-skeleton (2.3+kaisen9) kaisen-packages; urgency=medium
 
   * Add Kaisen-black and Kaisen-white profiles

@@ -3,7 +3,7 @@ Priority: standard
 Section: kaisen-packages
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 Standards-Version: 4.6.1
-Build-Depends: debhelper
+Build-Depends: debhelper-compat (= 13)
 Homepage: https://kaisenlinux.org
 Vcs-Browser: https://gitlab.com/kaisenlinux/packages/kaisen-skeleton
 Vcs-Git: https://gitlab.com/kaisenlinux/packages/kaisen-skeleton.git

@@ -114,13 +114,19 @@ fi
 
 ########## Kaisen settings, don't remove please ##########
 
+#Use apt full-upgrade instead of apt upgrade and apt-get full-upgrade instead of apt-get upgrade (user mode) USING THE UPGRADE COMMAND MAY BREAK KAISEN!
+sudo() { case $@ in "apt upgrade") command sudo apt full-upgrade ;; "apt-get upgrade") command sudo apt-get full-upgrade ;; *) command sudo "$@" ;; esac; }
+
+#Use apt full-upgrade instead of apt upgrade and apt-get full-upgrade instead of apt-get upgrade (root mode) USING THE UPGRADE COMMAND MAY BREAK KAISEN!
+apt() { if [[ $@ == "upgrade" ]]; then command apt full-upgrade; else command apt "$@"; fi; }
+apt-get() { if [[ $@ == "upgrade" ]]; then command apt-get full-upgrade; else command apt "$@"; fi; }
+
 #Add the $HOME/.krew folder in the PATH
 PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
-#Use apt full-upgrade instead of apt upgrade (user mode)
-sudo() { if [[ $@ == "apt upgrade" ]]; then command sudo apt full-upgrade; else command sudo "$@"; fi; }
-
-#Use apt full-upgrade instead of apt upgrade (root mode)
-apt() { if [[ $@ == "upgrade" ]]; then command apt full-upgrade; else command apt "$@"; fi; }
+#Aliases
+alias ip="ip --color=auto"
+alias grep="grep --color=auto"
+alias ll="ls -lhA"
 
 ########## Kaisen settings, end ##########
