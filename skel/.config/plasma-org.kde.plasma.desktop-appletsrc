@@ -60,7 +60,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][28][Applets][51][Configuration][General]
 alphaSort=true
-customButtonImage=/usr/share/pixmaps/kaisen-logos/kaisen-icon.svg
+customButtonImage=/usr/share/pixmaps/kaisen-pics/menus/kaisen-icon-tail-full-red.svg
 favoritesPortedToKAstats=true
 showIconsRootLevel=true
 showRecentApps=false

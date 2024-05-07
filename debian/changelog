@@ -1,3 +1,13 @@
+kaisen-skeleton (2.3+kaisen11) kaisen-packages; urgency=medium
+
+  * Add the new 3.0 Kaisen Linux logo
+  * Update the XFCE4 default profile:
+    - Tap to click for touchpad
+  * Update the LXQt default profile:
+    - Add the Super+L shortcut to lockscreen
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 07 May 2024 00:05:03 +0200
+
 kaisen-skeleton (2.3+kaisen10) kaisen-packages; urgency=medium
 
   * Add ip,grep and ll aliases
