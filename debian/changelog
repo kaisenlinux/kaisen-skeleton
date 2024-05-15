@@ -1,3 +1,9 @@
+kaisen-skeleton (2.3+kaisen12) kaisen-packages; urgency=medium
+
+  * Fix the conflict with the lxqt-globalkeys package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 15 May 2024 15:50:34 +0200
+
 kaisen-skeleton (2.3+kaisen11) kaisen-packages; urgency=medium
 
   * Add the new 3.0 Kaisen Linux logo

@@ -22,4 +22,5 @@ Replaces: kaisen-firefox,
 	  kaisen-lxde-default-profile,
 	  kaisen-mate-default-profile,
 	  kaisen-xfce-default-profile,
+	  lxqt-globalkeys,
 Description: Kaisen Linux defaults profiles for desktop environments
