@@ -3,11 +3,14 @@
 set -e
 
 if [[ "$1" = "configure" ]]; then
-    if dpkg --compare-versions "$2" lt "2.3+kaisen12"; then
+    if dpkg --compare-versions "$2" lt "2.3+kaisen13"; then
         for users in $(awk -F: '/\/home/ {printf "%s:%s\n",$1,$3}' /etc/passwd | cut -d: -f1)
         do
 		if [[ `sha256sum /home/$users/.face 2>/dev/null` = "10adb31a807d1e5ceab1afd6a416bbb60a3e29b306cf51788f81c4cfd37666be  /home/$users/.face" ]] || [[ `sha256sum /home/$users/.face 2>/dev/null` = "93a466ff6c0ced3fef37643a658dd100b86ced19d4fa47239f653ef60ab51f70  /home/$users/.face" ]]; then
 			cp -af /usr/share/kaisen-skeleton/.face /home/$users && chown $users: /home/$users/.face
+		fi
+		if [[ `sha256sum /home/$users/.config/mate/backgrounds.xml 2>/dev/null` = "668097f4d4a130f33672b2eab947fb5b6cc8720e87629cad9538a06d757dfe7e  /home/$users/.config/mate/backgrounds.xml" ]] || [[ `sha256sum /home/$users/.config/mate/backgrounds.xml 2>/dev/null` = "af44250640e8ad8eb902ba9f32b29d5c564498f7ef2052a70841919ee54d2cc2  /home/$users/.config/mate/backgrounds.xml" ]]; then
+			cp -af /usr/share/kaisen-skeleton/.config/mate/backgrounds.xml /home/$users/.config/mate/ && chown $users: /home/$users/.config/mate/backgrounds.xml
 		fi
 		if [[ `grep "kaisen.[ps][nv]g" /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "icon=/usr/share/pixmaps/kaisen/kaisen.png" ]]; then
 			sed -i 's/icon=\/usr\/share\/pixmaps\/kaisen\/kaisen.png/customButtonImage=\/usr\/share\/pixmaps\/kaisen-pics\/menus\/kaisen-icon-tail-full-red.svg/g' /home/$users/.config/plasma-org.kde.plasma.desktop-appletsrc
@@ -34,14 +37,6 @@ if [[ "$1" = "configure" ]]; then
 			sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 			sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /home/$users/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 		fi
-		if [[ -e /home/$users/.config/mate/backgrounds.xml ]]; then
-			sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /home/$users/.config/mate/backgrounds.xml
-			sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /home/$users/.config/mate/backgrounds.xml
-			sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /home/$users/.config/mate/backgrounds.xml
-			sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /home/$users/.config/mate/backgrounds.xml
-			sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /home/$users/.config/mate/backgrounds.xml
-			sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /home/$users/.config/mate/backgrounds.xml
-		fi
 		if [[ -e /home/$users/.config/pcmanfm-qt/lxqt/settings.conf ]]; then
 			sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
 			sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /home/$users/.config/pcmanfm-qt/lxqt/settings.conf
@@ -53,6 +48,9 @@ if [[ "$1" = "configure" ]]; then
         done
 	if [[ `sha256sum /root/.face 2>/dev/null` = "10adb31a807d1e5ceab1afd6a416bbb60a3e29b306cf51788f81c4cfd37666be  /root/.face" ]] || [[ `sha256sum /root/.face 2>/dev/null` = "93a466ff6c0ced3fef37643a658dd100b86ced19d4fa47239f653ef60ab51f70  /root/.face" ]]; then
         	cp -af /usr/share/kaisen-skeleton/.face /root
+	fi
+	if [[ `sha256sum /root/.config/mate/backgrounds.xml 2>/dev/null` = "668097f4d4a130f33672b2eab947fb5b6cc8720e87629cad9538a06d757dfe7e  /root/.config/mate/backgrounds.xml" ]] || [[ `sha256sum /root/.config/mate/backgrounds.xml 2>/dev/null` = "af44250640e8ad8eb902ba9f32b29d5c564498f7ef2052a70841919ee54d2cc2  /root/.config/mate/backgrounds.xml" ]]; then
+		cp -af /usr/share/kaisen-skeleton/.config/mate/backgrounds.xml /root/.config/mate/
 	fi
 	if [[ `grep "kaisen.[ps][nv]g" /root/.config/plasma-org.kde.plasma.desktop-appletsrc 2> /dev/null` = "icon=/usr/share/pixmaps/kaisen/kaisen.png" ]]; then
 		sed -i 's/icon=\/usr\/share\/pixmaps\/kaisen\/kaisen.png/customButtonImage=\/usr\/share\/pixmaps\/kaisen-pics\/menus\/kaisen-icon-tail-full-red.svg/g' /root/.config/plasma-org.kde.plasma.desktop-appletsrc
@@ -78,14 +76,6 @@ if [[ "$1" = "configure" ]]; then
 		sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 		sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 		sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /root/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
-	fi
-	if [[ -e /root/.config/mate/backgrounds.xml ]]; then
-		sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /root/.config/mate/backgrounds.xml
-		sed -i 's/kaisen-additionnal1.png/kaisen-additionnal1.jpg/g' /root/.config/mate/backgrounds.xml
-		sed -i 's/kaisen-additionnal2.png/kaisen-additionnal2.jpg/g' /root/.config/mate/backgrounds.xml
-		sed -i 's/kaisen-cassis.png/kaisen-cassis.jpg/g' /root/.config/mate/backgrounds.xml
-		sed -i 's/kaisen-lightdm.png/kaisen-lightdm.jpg/g' /root/.config/mate/backgrounds.xml
-		sed -i 's/kaisen-sddm.png/kaisen-sddm.jpg/g' /root/.config/mate/backgrounds.xml
 	fi
 	if [[ -e /root/.config/pcmanfm-qt/lxqt/settings.conf ]]; then
 		sed -i 's/kaisen-theme.png/kaisen-theme.jpg/g' /root/.config/pcmanfm-qt/lxqt/settings.conf

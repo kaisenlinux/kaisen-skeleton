@@ -204,7 +204,7 @@ statusbar-visible=true
 [org/mate/screensaver]
 idle-activation-enabled=true
 mode='single'
-picture-filename='/usr/share/backgrounds/kaisen-theme.jpg'
+picture-filename='/usr/share/backgrounds/kaisen-lockscreen.jpg'
 themes=['screensavers-footlogo-floaters']
 
 [org/mate/terminal/profiles/default]

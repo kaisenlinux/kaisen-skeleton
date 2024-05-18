@@ -2,7 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="true">
-    <name>Two Wings</name>
+    <name>Deux ailes</name>
     <filename>/usr/share/backgrounds/mate/nature/TwoWings.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -11,7 +11,7 @@
     <artist>Charles Barbin, Hylke Bons</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Garden</name>
+    <name>Jardin</name>
     <filename>/usr/share/backgrounds/mate/nature/Garden.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -20,13 +20,22 @@
     <artist>Charles Barbin</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Fresh Flower</name>
+    <name>Fleur rayonnante</name>
     <filename>/usr/share/backgrounds/mate/nature/FreshFlower.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
     <artist>Jens Ansorg</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-lockscreen.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-lockscreen.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Dune</name>
@@ -37,17 +46,17 @@
     <scolor>rgb(98,127,90)</scolor>
     <artist>Marco Cogoni, Hylke Bons</artist>
   </wallpaper>
-  <wallpaper deleted="true">
-    <name>Wood</name>
-    <filename>/usr/share/backgrounds/mate/nature/Wood.jpg</filename>
+  <wallpaper deleted="false">
+    <name>kaisen-additional2.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional2.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist>Jean-Fran&#xE7;ois Fortin Tam</artist>
+    <artist/>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Green Traditional</name>
+    <name>Vert traditionnel</name>
     <filename>/usr/share/backgrounds/mate/desktop/GreenTraditional.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -56,7 +65,7 @@
     <artist>l0r4n0n</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Green Meadow</name>
+    <name>Verte prairie</name>
     <filename>/usr/share/backgrounds/mate/nature/GreenMeadow.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -65,16 +74,25 @@
     <artist>Timothy Schellhase, Lapo Calamandrei</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-additionnal2.jpg</name>
-    <filename>/usr/share/backgrounds/kaisen-additionnal2.jpg</filename>
-    <options>wallpaper</options>
+    <name>kaisen-additional7.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional7.jpg</filename>
+    <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
     <artist/>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Yellow Flower</name>
+    <name>Bois</name>
+    <filename>/usr/share/backgrounds/mate/nature/Wood.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>Jean-Fran&#xE7;ois Fortin Tam</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Fleur jaune</name>
     <filename>/usr/share/backgrounds/mate/nature/YellowFlower.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -82,8 +100,26 @@
     <scolor>rgb(98,127,90)</scolor>
     <artist>Charles Barbin</artist>
   </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-lightdm.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-lightdm.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-theme.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-theme.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
+  </wallpaper>
   <wallpaper deleted="true">
-    <name>Gulp</name>
+    <name>Voile</name>
     <filename>/usr/share/backgrounds/mate/abstract/Gulp.png</filename>
     <options>zoom</options>
     <shade_type>horizontal-gradient</shade_type>
@@ -91,8 +127,17 @@
     <scolor>rgb(39,88,126)</scolor>
     <artist>Daniel Galleguillos, Hylke Bons</artist>
   </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-additional4.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional4.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
+  </wallpaper>
   <wallpaper deleted="true">
-    <name>Ubuntu MATE Cold</name>
+    <name>Ubuntu MATE Froid</name>
     <filename>/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Cold-no-logo.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -101,7 +146,7 @@
     <artist>Goce Mitevski</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Silk</name>
+    <name>Soie</name>
     <filename>/usr/share/backgrounds/mate/abstract/Silk.png</filename>
     <options>zoom</options>
     <shade_type>horizontal-gradient</shade_type>
@@ -110,22 +155,13 @@
     <artist>Patryk Zawadzki</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Lady Bird</name>
+    <name>Coccinelle</name>
     <filename>/usr/share/backgrounds/mate/nature/LadyBird.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
     <artist>Charles Barbin</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>kaisen-cassis.jpg</name>
-    <filename>/usr/share/backgrounds/kaisen-cassis.jpg</filename>
-    <options>wallpaper</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Ubuntu MATE Radioactive</name>
@@ -146,7 +182,7 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Ubuntu MATE Warm</name>
+    <name>Ubuntu MATE Chaleureux</name>
     <filename>/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Warm-no-logo.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -154,8 +190,26 @@
     <scolor>rgb(98,127,90)</scolor>
     <artist>Goce Mitevski</artist>
   </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-additional1.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional1.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-additional6.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional6.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
+  </wallpaper>
   <wallpaper deleted="true">
-    <name>Something slowly gets clear</name>
+    <name>Quelque chose devient lentement clair</name>
     <filename>/usr/share/backgrounds/mate/abstract/Elephants.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -163,50 +217,14 @@
     <scolor>rgb(0,0,0)</scolor>
     <artist>Wyng Stancikaite</artist>
   </wallpaper>
-  <wallpaper deleted="false">
-    <name>kaisen-lightdm.jpg</name>
-    <filename>/usr/share/backgrounds/kaisen-lightdm.jpg</filename>
-    <options>wallpaper</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>kaisen-additionnal1.jpg</name>
-    <filename>/usr/share/backgrounds/kaisen-additionnal1.jpg</filename>
-    <options>wallpaper</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
-  </wallpaper>
   <wallpaper deleted="true">
-    <name>MATE Stripes Light</name>
+    <name>MATE Rayures Claires</name>
     <filename>/usr/share/backgrounds/mate/desktop/MATE-Stripes-Light.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(63,77,40)</pcolor>
     <scolor>rgb(106,148,38)</scolor>
     <artist>Adam Erdman</artist>
-  </wallpaper>
-  <wallpaper deleted="true">
-    <name>Something slowly gets clear</name>
-    <filename>/usr/share/backgrounds/mate/abstract/Elephants_5640x3172.jpg</filename>
-    <options>scaled</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(114,159,207)</pcolor>
-    <scolor>rgb(0,0,0)</scolor>
-    <artist>Wyng Stancikaite</artist>
-  </wallpaper>
-  <wallpaper deleted="true">
-    <name>Stripes</name>
-    <filename>/usr/share/backgrounds/mate/desktop/Stripes.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(68,165,42)</scolor>
-    <artist>Jakub Steiner</artist>
   </wallpaper>
   <wallpaper deleted="true">
     <name>Arc</name>
@@ -218,7 +236,25 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>MATE Stripes Dark</name>
+    <name>Bandes</name>
+    <filename>/usr/share/backgrounds/mate/desktop/Stripes.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(68,165,42)</scolor>
+    <artist>Jakub Steiner</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Quelque chose devient lentement clair</name>
+    <filename>/usr/share/backgrounds/mate/abstract/Elephants_5640x3172.jpg</filename>
+    <options>scaled</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(114,159,207)</pcolor>
+    <scolor>rgb(0,0,0)</scolor>
+    <artist>Wyng Stancikaite</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>MATE Rayures Sombres</name>
     <filename>/usr/share/backgrounds/mate/desktop/MATE-Stripes-Dark.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -226,26 +262,17 @@
     <scolor>rgb(133,212,91)</scolor>
     <artist>Adam Erdman</artist>
   </wallpaper>
-  <wallpaper deleted="true">
-    <name>Aqua</name>
-    <filename>/usr/share/backgrounds/mate/nature/Aqua.jpg</filename>
+  <wallpaper deleted="false">
+    <name>kaisen-additional3.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional3.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
-    <artist>Charles Barbin</artist>
-  </wallpaper>
-  <wallpaper deleted="true">
-    <name>Float into MATE</name>
-    <filename>/usr/share/backgrounds/mate/desktop/Float-into-MATE.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist>Rowen Stipe</artist>
+    <artist/>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>No Desktop Background</name>
+    <name>Aucun arri&#xE8;re-plan de bureau</name>
     <filename>(none)</filename>
     <options>wallpaper</options>
     <shade_type>vertical-gradient</shade_type>
@@ -254,7 +281,34 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Spring</name>
+    <name>Eau</name>
+    <filename>/usr/share/backgrounds/mate/nature/Aqua.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>Charles Barbin</artist>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Flotter dans MATE</name>
+    <filename>/usr/share/backgrounds/mate/desktop/Float-into-MATE.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist>Rowen Stipe</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>kaisen-lightdm-blue.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-lightdm-blue.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(39,88,126)</pcolor>
+    <scolor>rgb(98,127,90)</scolor>
+    <artist/>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Printemps</name>
     <filename>/usr/share/backgrounds/mate/abstract/Spring.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -263,7 +317,7 @@
     <artist>Patryk Zawadzki</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Waves</name>
+    <name>Vagues</name>
     <filename>/usr/share/backgrounds/mate/abstract/Waves.png</filename>
     <options>zoom</options>
     <shade_type>horizontal-gradient</shade_type>
@@ -272,7 +326,7 @@
     <artist>Patryk Zawadzki</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Flow</name>
+    <name>Souffle</name>
     <filename>/usr/share/backgrounds/mate/abstract/Flow.png</filename>
     <options>zoom</options>
     <shade_type>horizontal-gradient</shade_type>
@@ -281,7 +335,7 @@
     <artist>Daniel Galleguillos, Hylke Bons</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Rain Drops</name>
+    <name>Gouttes de pluie</name>
     <filename>/usr/share/backgrounds/mate/nature/RainDrops.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -290,7 +344,7 @@
     <artist>blackcombwhistler07</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Ubuntu MATE Dark</name>
+    <name>Ubuntu MATE Sombre</name>
     <filename>/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Dark-no-logo.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -299,7 +353,7 @@
     <artist>Goce Mitevski</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Something slowly gets clear</name>
+    <name>Quelque chose devient lentement clair</name>
     <filename>/usr/share/backgrounds/mate/abstract/Elephants_3840x2160.jpg</filename>
     <options>scaled</options>
     <shade_type>vertical-gradient</shade_type>
@@ -308,16 +362,16 @@
     <artist>Wyng Stancikaite</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>kaisen-sddm.jpg</name>
-    <filename>/usr/share/backgrounds/kaisen-sddm.jpg</filename>
-    <options>wallpaper</options>
+    <name>kaisen-additional5.jpg</name>
+    <filename>/usr/share/backgrounds/kaisen-additional5.jpg</filename>
+    <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
     <artist/>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Storm</name>
+    <name>Temp&#xEA;te</name>
     <filename>/usr/share/backgrounds/mate/nature/Storm.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -326,21 +380,12 @@
     <artist>Sergey Nazarov</artist>
   </wallpaper>
   <wallpaper deleted="true">
-    <name>Blinds</name>
+    <name>Stores</name>
     <filename>/usr/share/backgrounds/mate/nature/Blinds.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(39,88,126)</pcolor>
     <scolor>rgb(98,127,90)</scolor>
     <artist>Lennart Poettering, Andrea Cimitan</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>kaisen-theme.jpg</name>
-    <filename>/usr/share/backgrounds/kaisen-theme.jpg</filename>
-    <options>wallpaper</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
-    <artist/>
   </wallpaper>
 </wallpapers>

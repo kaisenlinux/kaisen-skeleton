@@ -1,4 +1,20 @@
-kaisen-skeleton (2.3+kaisen12) kaisen-packages; urgency=medium
+kaisen-skeleton (2.3+kaisen13) kaisen-packages; urgency=medium
+
+  * No directly change the content of the backgrounds.xml file
+  * Add the new backgrounds.xml file if the checksum is similar to
+    original one
+  * Update the minimum version of kaisen-skeleton package required to change
+    users confs
+  * Update the MATE default profile:
+    - Add the new backgrounds.xml file
+    - Use the lockscreen picture instead of the default wallpaper when
+      the session is locked
+  * Update the KDE default profile to add the lockscreen theme wallpaper for the
+    lockscreen
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 18 May 2024 04:28:07 +0200
+
+kaisen-skeleton (2.3+kaisen12) kaisen-packages; urgency=high
 
   * Fix the conflict with the lxqt-globalkeys package
 
