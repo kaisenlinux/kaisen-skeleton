@@ -1,3 +1,9 @@
+kaisen-skeleton (2.3+kaisen14) kaisen-packages; urgency=medium
+
+  * Use zoom as option for the wallpaper instead of the wallpaper option
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 27 May 2024 06:04:28 +0200
+
 kaisen-skeleton (2.3+kaisen13) kaisen-packages; urgency=medium
 
   * No directly change the content of the backgrounds.xml file

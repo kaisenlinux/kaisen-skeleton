@@ -29,7 +29,7 @@ enable-delete=true
 [org/mate/desktop/background]
 color-shading-type='vertical-gradient'
 picture-filename='/usr/share/backgrounds/kaisen-theme.jpg'
-picture-options='wallpaper'
+picture-options='zoom'
 primary-color='rgb(39,88,126)'
 secondary-color='rgb(98,127,90)'
 
