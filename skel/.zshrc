@@ -113,7 +113,7 @@ apt() { if [[ $@ == "upgrade" ]]; then command apt full-upgrade; else command ap
 apt-get() { if [[ $@ == "upgrade" ]]; then command apt-get full-upgrade; else command apt "$@"; fi; }
 
 #Add the $HOME/.krew folder in the PATH
-PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+PATH="$PATH:${KREW_ROOT:-$HOME/.krew}/bin"
 
 #Aliases
 alias ip="ip --color=auto"

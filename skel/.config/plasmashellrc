@@ -1,4 +1,7 @@
 [KPropertiesDialog]
 
+[PlasmaViews][Panel 28]
+floating=0
+
 [PlasmaViews][Panel 28][Defaults]
 thickness=40
