@@ -1,3 +1,9 @@
+kaisen-skeleton (2.3+kaisen16) kaisen-packages; urgency=medium
+
+  * Update KDE profile for KDE6
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 11 Jan 2025 23:48:28 +0200
+
 kaisen-skeleton (2.3+kaisen15) kaisen-packages; urgency=medium
 
   * Add breeze_cursors as default pointer for all UI

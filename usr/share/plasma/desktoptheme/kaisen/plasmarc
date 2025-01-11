@@ -1,0 +1,17 @@
+[Settings]
+FallbackTheme=default
+
+[Wallpaper]
+defaultWallpaperTheme=Kaisen
+defaultFileSuffix=.jpg
+defaultWidth=3840
+defaultHeight=2160
+
+[ContrastEffect]
+enabled=true
+contrast=0.2
+intensity=0.6
+saturation=10
+
+[AdaptiveTransparency]
+enabled=true

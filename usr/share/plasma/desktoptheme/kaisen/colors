@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -78,7 +76,7 @@ ForegroundVisited=155,89,182
 
 [Colors:Selection]
 BackgroundAlternate=108,25,24
-BackgroundNormal=108,25,24
+BackgroundNormal=143,23,21
 DecorationFocus=143,23,21
 DecorationHover=143,23,21
 ForegroundActive=143,23,21
@@ -133,55 +131,13 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-AccentColor[$d]
-BrowserApplication[$e]=firefox.desktop
-ColorScheme=Kaisen
-ColorSchemeHash=ba6d294caae65ad228dfc205c32c071b7dcacea9
 Name=Kaisen
-TerminalApplication=terminator
-TerminalService=kaisenterminal.desktop
-XftHintStyle=hintslight
-XftSubPixel=rgb
-fixed=Noto Sans,10,-1,5,50,0,0,0,0,0
-font=Cantarell,10,-1,5,50,0,0,0,0,0
-menuFont=Cantarell,10,-1,5,50,0,0,0,0,0
+accentActiveTitlebar=true
+accentInactiveTitlebar=true
 shadeSortColumn=true
-smallestReadableFont=Cantarell,8,-1,5,50,0,0,0,0,0
-toolBarFont=Cantarell,10,-1,5,50,0,0,0,0,0
-widgetStyle=Breeze
 
 [KDE]
-ColorScheme=Kaisen
-LookAndFeelPackage=org.kaisen.default.desktop
-ShowIconsInMenuItems=true
-ShowIconsOnPushButtons=true
-SingleClick=false
 contrast=4
-widgetStyle=Breeze
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=171
-View Style=DetailTree
-
-[Toolbar style]
-ToolButtonStyle=TextBesideIcon
-ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
 activeBackground=49,54,59

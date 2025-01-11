@@ -16,14 +16,9 @@ Image=kaisen
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
-[kwinrc][WindowSwitcher]
-LayoutName=Kaisen
-
-[kwinrc][DesktopSwitcher]
-LayoutName=Kaisen
-
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.breezedark
+theme=Kaisen
 
 [KSplash]
 Theme=org.kde.Breeze

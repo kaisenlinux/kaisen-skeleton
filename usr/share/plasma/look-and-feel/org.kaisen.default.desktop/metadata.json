@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "kaisen@kaisenlinux.org",
+		"Name": "Kevin Chevreuil"
+            }
+        ],
+        "Category": "",
+        "Description": "Custom Breeze theme for Kaisen Linux",
+        "Description[de]": "Benutzerdefiniertes Breeze-Thema für Kaisen Linux",
+        "Description[es]": "Tema Breeze personalizado para Kaisen Linux",
+        "Description[fr]": "Thème Breeze personnalisé pour Kaisen Linux",
+        "Description[it]": "Tema Breeze personalizzato per Kaisen Linux",
+        "Description[pt]": "Tema personalizado Breeze para Kaisen Linux",
+        "Id": "org.kaisen.default.desktop",
+        "License": "GPLv2+",
+        "Name": "Kaisen",
+        "Website": "https://kaisenlinux.org"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "kaisen@kaisenlinux.org",
+		"Name": "Kevin Chevreuil"
+            }
+        ],
+        "Category": "",
+        "Description": "Custom Breeze theme for Kaisen Linux",
+        "Description[de]": "Benutzerdefiniertes Breeze-Thema für Kaisen Linux",
+        "Description[es]": "Tema Breeze personalizado para Kaisen Linux",
+        "Description[fr]": "Thème Breeze personnalisé pour Kaisen Linux",
+        "Description[it]": "Tema Breeze personalizzato per Kaisen Linux",
+        "Description[pt]": "Tema personalizado Breeze para Kaisen Linux",
+	"EnabledByDefault": true,
+        "Id": "kaisen",
+        "License": "LGPL",
+        "Name": "Kaisen",
+	"Version": "1.0",
+        "Website": "https://kaisenlinux.org"
+    },
+    "X-Plasma-API": "5.0"
+}
