@@ -1,3 +1,11 @@
+kaisen-skeleton (3.0) kaisen-packages; urgency=medium
+
+  * Bump to 3.0
+  * Update the LXQT profile (battery icon, desktop shortcuts
+    and wallpaper settings)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 11 Aug 2025 21:22:29 +0200
+
 kaisen-skeleton (2.3+kaisen16) kaisen-packages; urgency=medium
 
   * Update KDE profile for KDE6
